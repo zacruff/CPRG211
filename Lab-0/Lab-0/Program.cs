@@ -11,45 +11,31 @@ static double HighInput()
     return high;
 }
 
-// Task 1: Creating Variables
-
-Console.WriteLine("Task 1: Creating Variables");
 double low = LowInput();
-double high = HighInput();
-double difference = high - low;
-Console.WriteLine("The difference between the two numbers is " + difference);
-
-// Task 2: Looping and Input Validation
-
-Console.WriteLine("\nTask 2: Looping and Input Validation");
-Console.WriteLine("Part 1");
-double lowPositive = LowInput();
-while (lowPositive < 0)
+while (low < 0)
 {
     Console.WriteLine("Please enter a positive number.");
-    lowPositive = LowInput();
+    low = LowInput();
 }
-Console.WriteLine("Part 2");
-double lowNumber = LowInput();
-double highNumber = HighInput();
-while (highNumber < lowNumber)
+
+double high = HighInput();
+while (high < low)
 {
-    Console.WriteLine("Enter a number higher than " + lowNumber);
-    highNumber = HighInput();
+    Console.WriteLine($"Enter a number higher than {low}");
+    high = HighInput();
 }
+double difference = high - low;
+Console.WriteLine($"The difference between the two numbers is {difference}");
 
-// Task 3: Using Arrays and File I/O
-
-Console.WriteLine("\nTask 3: Using Arrays and File I/O");
-double numLow = LowInput();
-double numHigh = HighInput();
 List<string> numlist = new List<string>();
-for (double i = numLow; i <= numHigh; i++)
+for (double i = low; i <= high; i++)
 {
     string numString = i.ToString();
     numlist.Add(numString);
 }
+
 numlist.Reverse();
+
 File.WriteAllLines("C:/cprg211/numbers.txt", numlist.ToArray());
 string[] numArray = File.ReadAllLines("C:/cprg211/numbers.txt");
 double total = 0;
