@@ -21,13 +21,15 @@ Console.WriteLine("The difference between the two numbers is " + difference);
 
 // Task 2: Looping and Input Validation
 
-Console.WriteLine("Task 2: Looping and Input Validation");
+Console.WriteLine("\nTask 2: Looping and Input Validation");
+Console.WriteLine("Part 1");
 double lowPositive = LowInput();
 while (lowPositive < 0)
 {
     Console.WriteLine("Please enter a positive number.");
     lowPositive = LowInput();
 }
+Console.WriteLine("Part 2");
 double lowNumber = LowInput();
 double highNumber = HighInput();
 while (highNumber < lowNumber)
@@ -38,7 +40,7 @@ while (highNumber < lowNumber)
 
 // Task 3: Using Arrays and File I/O
 
-Console.WriteLine("Task 3: Using Arrays and File I/O");
+Console.WriteLine("\nTask 3: Using Arrays and File I/O");
 double numLow = LowInput();
 double numHigh = HighInput();
 List<string> numlist = new List<string>();

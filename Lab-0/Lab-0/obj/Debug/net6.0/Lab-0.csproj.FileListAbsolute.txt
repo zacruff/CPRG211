@@ -12,3 +12,17 @@ C:\Users\zacru\source\repos\Lab-0\Lab-0\obj\Debug\net6.0\refint\Lab-0.dll
 C:\Users\zacru\source\repos\Lab-0\Lab-0\obj\Debug\net6.0\Lab-0.pdb
 C:\Users\zacru\source\repos\Lab-0\Lab-0\obj\Debug\net6.0\Lab-0.genruntimeconfig.cache
 C:\Users\zacru\source\repos\Lab-0\Lab-0\obj\Debug\net6.0\ref\Lab-0.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\bin\Debug\net6.0\Lab-0.exe
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\bin\Debug\net6.0\Lab-0.deps.json
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\bin\Debug\net6.0\Lab-0.runtimeconfig.json
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\bin\Debug\net6.0\Lab-0.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\bin\Debug\net6.0\Lab-0.pdb
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\obj\Debug\net6.0\Lab-0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\obj\Debug\net6.0\Lab-0.AssemblyInfoInputs.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\obj\Debug\net6.0\Lab-0.AssemblyInfo.cs
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\obj\Debug\net6.0\Lab-0.csproj.CoreCompileInputs.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\obj\Debug\net6.0\Lab-0.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\obj\Debug\net6.0\refint\Lab-0.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\obj\Debug\net6.0\Lab-0.pdb
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\obj\Debug\net6.0\Lab-0.genruntimeconfig.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-0\Lab-0\obj\Debug\net6.0\ref\Lab-0.dll
