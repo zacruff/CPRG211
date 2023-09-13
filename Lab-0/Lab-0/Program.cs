@@ -73,7 +73,7 @@
             double total = 0;
             foreach (string num in numArray)
             {
-                double numInt = Convert.ToInt32(num);
+                double numInt = Convert.ToDouble(num);
                 total += numInt;
             }
             Console.WriteLine("The sum of the numbers in numbers.txt is " + total);
