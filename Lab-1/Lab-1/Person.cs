@@ -38,8 +38,8 @@ namespace Lab_1_Person_Class
             this.firstName = firstName;
             this.lastName = lastName;
             this.favoriteColor = favoriteColor;
-            this.Age = age;
-            this.IsWorking = isWorking;
+            Age = age;
+            IsWorking = isWorking;
         }
 
         public string DisplayPersonInfo()

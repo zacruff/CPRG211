@@ -12,11 +12,11 @@ namespace Lab_1_Relation_Class
         private string relationshipType;
         private Person person1;
         private Person person2;
-        public string RelationType { get => relationshipType; set => relationshipType = value; }
+        public string RelationshipType { get => relationshipType; set => relationshipType = value; }
 
         public Relation(string relationshipType, Person person1, Person person2)
         {
-            this.relationshipType = relationshipType;
+            RelationshipType = relationshipType;
             this.person1 = person1;
             this.person2 = person2;
         }
