@@ -1,0 +1,4 @@
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\obj\Debug\net6.0\Exercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\obj\Debug\net6.0\Exercises.AssemblyInfoInputs.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\obj\Debug\net6.0\Exercises.AssemblyInfo.cs
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\obj\Debug\net6.0\Exercises.csproj.CoreCompileInputs.cache

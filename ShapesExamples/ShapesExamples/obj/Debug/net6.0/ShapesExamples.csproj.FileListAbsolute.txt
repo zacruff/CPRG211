@@ -1,0 +1,14 @@
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\bin\Debug\net6.0\ShapesExamples.exe
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\bin\Debug\net6.0\ShapesExamples.deps.json
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\bin\Debug\net6.0\ShapesExamples.runtimeconfig.json
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\bin\Debug\net6.0\ShapesExamples.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\bin\Debug\net6.0\ShapesExamples.pdb
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\obj\Debug\net6.0\ShapesExamples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\obj\Debug\net6.0\ShapesExamples.AssemblyInfoInputs.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\obj\Debug\net6.0\ShapesExamples.AssemblyInfo.cs
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\obj\Debug\net6.0\ShapesExamples.csproj.CoreCompileInputs.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\obj\Debug\net6.0\ShapesExamples.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\obj\Debug\net6.0\refint\ShapesExamples.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\obj\Debug\net6.0\ShapesExamples.pdb
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\obj\Debug\net6.0\ShapesExamples.genruntimeconfig.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\ShapesExamples\ShapesExamples\obj\Debug\net6.0\ref\ShapesExamples.dll
