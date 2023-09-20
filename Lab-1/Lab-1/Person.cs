@@ -1,10 +1,11 @@
-﻿namespace Lab_1
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lab_1_Person_Class
 {
-    /// <summary>
-    /// Lab 1 for CPRG211
-    /// Author: Zac Ruff (zac.ruff@edu.sait.ca)
-    /// Date: September 20, 2023
-    /// </summary>
     internal class Person
     {
         private int personId;
@@ -73,40 +74,6 @@
         {
             int newAge = age + 10;
             return newAge;
-        }
-
-
-    }
-    internal class Relation
-    {
-        private string relationshipType;
-        public string RelationType { get => relationshipType; set => relationshipType = value; }
-
-        public Relation(string relationshipType)
-        {
-            this.relationshipType = relationshipType;
-        }
-
-        public string ShowRelationship()
-        {
-            return relationshipType;
-        }
-    }
-    
-    internal class MainClass
-    {
-        static void Main(string[] args)
-        {
-            Person personOne = new Person(1, "Ian", "Brooks", "Red", 30, true);
-            Person personTwo = new Person(2, "Gina", "James", "Green", 30, false);
-            Person personThree = new Person(3, "Mike", "Briscoe", "Blue", 45, true);
-            Person personFour = new Person(4, "Mary", "Beals", "Yellow", 28, true);
-            Console.WriteLine(personTwo.DisplayPersonInfo());
-            Console.WriteLine(personThree.ToString());
-            Console.WriteLine(personOne.DisplayPersonInfo());
-            personOne.ChangeFavoriteColour();
-            Console.WriteLine(personOne.DisplayPersonInfo());
-            Console.WriteLine(personOne.GetAgeInTenYears());
         }
     }
 }
