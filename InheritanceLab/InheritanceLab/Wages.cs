@@ -46,8 +46,19 @@ namespace InheritanceLab
         // Methods
         public double GetPay(double rate, double hours)
         {
-            double pay = rate * hours;
-            return pay;
+            double pay = 0;
+            if (hours > 40)
+            {
+                double overtimeHours = hours - 40;
+                hours -= overtimeHours;
+                pay += (rate * hours) + ((rate * 1.5) * overtimeHours);
+                return pay;
+            } else
+            {
+                pay += rate * hours;
+                return pay;
+            }
+
         }
     }
 }
