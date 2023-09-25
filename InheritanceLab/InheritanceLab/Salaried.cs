@@ -33,7 +33,8 @@ namespace InheritanceLab
         // Methods
         public double GetPay(double salary)
         {
-            return salary;
+            double weeklySalary = salary / 52;
+            return weeklySalary;
         }
     }
 }

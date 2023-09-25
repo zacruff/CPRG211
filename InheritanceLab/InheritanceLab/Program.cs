@@ -76,7 +76,7 @@ namespace InheritanceLab
                 totalPay += pay;
             }
             double avgPay = totalPay / employees.Count;
-            Console.WriteLine($"The average pay of all employees is: {avgPay:c}");
+            Console.WriteLine($"The average weekly pay of all employees is: {avgPay:c}\n");
 
             // Highest Weekly Pay for Wage Employees
             double highestPay = 0;
@@ -90,7 +90,8 @@ namespace InheritanceLab
                     paidEmployee = employee;
                 }
             }
-            Console.WriteLine($"The highest weekly paid wage employee is {paidEmployee.Name} at ${highestPay}");
+            Console.WriteLine($"Highest Weekly Pay: {highestPay:c}");
+            Console.WriteLine(paidEmployee.ToString());
 
             // Lowest Salary Pay
             double lowestPay = 999999;
@@ -104,7 +105,8 @@ namespace InheritanceLab
                     lowestPaidSalary = employee;
                 }
             }
-            Console.WriteLine($"The lowest paid salary employee is {lowestPaidSalary.Name} at ${lowestPay}");
+            Console.WriteLine($"Lowest Paid Salary: {lowestPay:c}");
+            Console.WriteLine(lowestPaidSalary.ToString());
 
             // Calculating Percentages
             double employeeCount = employees.Count;
