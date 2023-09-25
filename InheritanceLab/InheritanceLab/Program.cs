@@ -1,4 +1,7 @@
-﻿namespace InheritanceLab
+﻿using System.IO.Pipes;
+using System.Xml.Schema;
+
+namespace InheritanceLab
 {
     internal class Program
     {
@@ -6,6 +9,9 @@
         {
             string[] lines = File.ReadAllLines("employees.txt");
             List<Employee> employees = new List<Employee>();
+            List<Salaried> salariedEmployees = new List<Salaried>();
+            List<Wages> wagesEmployees = new List<Wages>();
+            List<PartTime> partTimeEmployees = new List<PartTime>();
 
             foreach (string line in lines)
             {
@@ -24,8 +30,9 @@
                     // Salaried Employee
                     string salaryString = columns[7];
                     double salary = Convert.ToDouble(salaryString);
-                    Employee employee = new Salaried(id, name, address, phone, sin, dob, dept, salary);
+                    Salaried employee = new Salaried(id, name, address, phone, sin, dob, dept, salary);
                     employees.Add(employee);
+                    salariedEmployees.Add(employee);
                 }
                 else if (firstDigitOfId == '5' || firstDigitOfId == '6' || firstDigitOfId == '7')
                 {
@@ -34,8 +41,9 @@
                     string hoursString = columns[8];
                     double rate = Convert.ToDouble(rateString);
                     double hours = Convert.ToDouble(hoursString);
-                    Employee employee = new Wages(id, name, address, phone, sin, dob, dept, rate, hours);
+                    Wages employee = new Wages(id, name, address, phone, sin, dob, dept, rate, hours);
                     employees.Add(employee);
+                    wagesEmployees.Add(employee);
                 }
                 else if (firstDigitOfId == '8' || firstDigitOfId== '9')
                 {
@@ -44,15 +52,61 @@
                     string hoursString = columns[8];
                     double rate = Convert.ToDouble(rateString);
                     double hours = Convert.ToDouble(hoursString);
-                    Employee employee = new PartTime(id, name, address, phone, sin, dob, dept, rate, hours);
+                    PartTime employee = new PartTime(id, name, address, phone, sin, dob, dept, rate, hours);
                     employees.Add(employee);
-                }
-
-                foreach (Employee employee in employees)
-                {
-                    Console.WriteLine(employee);
+                    partTimeEmployees.Add(employee);
                 }
             }
+
+            // Average Weekly Pay for All Employees
+            double totalPay = 0;
+            foreach (Salaried employee in salariedEmployees)
+            {
+                double pay = employee.GetPay(employee.Salary);
+                totalPay += pay;
+            }
+            foreach (Wages employee in wagesEmployees)
+            {
+                double pay = employee.GetPay(employee.Rate, employee.Hours);
+                totalPay += pay;
+            }
+            foreach (PartTime employee in partTimeEmployees)
+            {
+                double pay = employee.GetPay(employee.Rate, employee.Hours);
+                totalPay += pay;
+            }
+            double avgPay = totalPay / employees.Count;
+            Console.WriteLine(avgPay);
+
+            // Highest Weekly Pay for Wage Employees
+            double highestPay = 0;
+            Employee paidEmployee = wagesEmployees[0];
+            foreach (Wages employee in wagesEmployees)
+            {
+                double pay = employee.GetPay(employee.Rate, employee.Hours);
+                if (pay > highestPay)
+                {
+                    highestPay = pay;
+                    paidEmployee = employee;
+                }
+            }
+            Console.WriteLine($"The highest weekly paid wage employee is {paidEmployee.Name} at ${highestPay}");
+
+            // Lowest Salary Pay
+
+            double lowestPay = 999999;
+            Employee lowestPaidSalary = wagesEmployees[0];
+            foreach (Salaried employee in salariedEmployees)
+            {
+                double pay = employee.GetPay(employee.Salary);
+                if (pay < lowestPay) 
+                {
+                    lowestPay = pay;
+                    lowestPaidSalary = employee;
+                }
+            }
+            Console.WriteLine($"The lowest paid salary employee is {lowestPaidSalary.Name} at ${lowestPay}");
+
         }
     }
 }

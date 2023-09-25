@@ -44,5 +44,10 @@ namespace InheritanceLab
         }
 
         // Methods
+        public double GetPay(double rate, double hours)
+        {
+            double pay = rate * hours;
+            return pay;
+        }
     }
 }
