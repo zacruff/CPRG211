@@ -1,0 +1,26 @@
+The average weekly pay of all employees is: $3,016.24
+
+Highest Weekly Pay: $2,334.50
+ID: 5489867
+Name: Elle Driver
+Address: 32 Mountain Drive, Los Angeles
+Phone: (765) 456-7766
+SIN: 765098345
+D.O.B: October 5, 2000
+Dept: International Sales
+
+Lowest Paid Salary: $394.23
+ID: 217546
+Name: Samuel Ludlow III
+Address: 2345 The Rich Man Way, RichVille, RC
+Phone: (567) 324-9812
+SIN: 768956453
+D.O.B: February 29, 1942
+Dept: Collections Section
+
+Salaried Employee Percentage: 0.33%
+Waged Employee Percentage: 0.44%
+Part Time Employee Percentage: 0.22%
+
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\bin\Debug\net6.0\InheritanceLab.exe (process 11324) exited with code 0.
+Press any key to close this window . . .
