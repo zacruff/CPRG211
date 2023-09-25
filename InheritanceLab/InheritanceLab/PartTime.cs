@@ -8,9 +8,10 @@ namespace InheritanceLab
 {
     internal class PartTime : Employee
     {
-        // Field
+        // Fields
         private double rate;
-        // Property
+        private double hours;
+        // Properties
         public double Rate
         {
             get => rate;
@@ -22,9 +23,27 @@ namespace InheritanceLab
                 }
             }
         }
-        public PartTime(string id, string name, string address, string phone, long sin) : base(id, name, address, phone)
+        public double Hours
         {
-
+            get => hours;
+            set
+            {
+                if (hours >= 0)
+                {
+                    hours = value;
+                }
+            }
         }
+
+        // Constructors
+        public PartTime() { }
+        public PartTime(string id, string name, string address, string phone, long sin, string dob, string dept, double rate, double hours) : base(id, name, address, phone, sin, dob, dept)
+        {
+            Rate = rate;
+            Hours = hours;
+        }
+
+        // Methods
+
     }
 }

@@ -12,3 +12,17 @@ C:\Users\zacru\Documents\SAIT\YR1\CPRG211\InheritanceLab\InheritanceLab\obj\Debu
 C:\Users\zacru\Documents\SAIT\YR1\CPRG211\InheritanceLab\InheritanceLab\obj\Debug\net6.0\InheritanceLab.pdb
 C:\Users\zacru\Documents\SAIT\YR1\CPRG211\InheritanceLab\InheritanceLab\obj\Debug\net6.0\InheritanceLab.genruntimeconfig.cache
 C:\Users\zacru\Documents\SAIT\YR1\CPRG211\InheritanceLab\InheritanceLab\obj\Debug\net6.0\ref\InheritanceLab.dll
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\bin\Debug\net6.0\InheritanceLab.exe
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\bin\Debug\net6.0\InheritanceLab.deps.json
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\bin\Debug\net6.0\InheritanceLab.runtimeconfig.json
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\bin\Debug\net6.0\InheritanceLab.dll
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\bin\Debug\net6.0\InheritanceLab.pdb
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\obj\Debug\net6.0\InheritanceLab.GeneratedMSBuildEditorConfig.editorconfig
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\obj\Debug\net6.0\InheritanceLab.AssemblyInfoInputs.cache
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\obj\Debug\net6.0\InheritanceLab.AssemblyInfo.cs
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\obj\Debug\net6.0\InheritanceLab.csproj.CoreCompileInputs.cache
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\obj\Debug\net6.0\InheritanceLab.dll
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\obj\Debug\net6.0\refint\InheritanceLab.dll
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\obj\Debug\net6.0\InheritanceLab.pdb
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\obj\Debug\net6.0\InheritanceLab.genruntimeconfig.cache
+F:\Coding\CPRG211\InheritanceLab\InheritanceLab\obj\Debug\net6.0\ref\InheritanceLab.dll

@@ -22,9 +22,14 @@ namespace InheritanceLab
                 }
             }
         }
-        public Salaried(string id, string name, string address, string phone, long sin) : base(id, name, address, phone)
-        {
 
+        // Constructors
+        public Salaried() { }
+        public Salaried(string id, string name, string address, string phone, long sin, string dob, string dept, double salary) : base(id, name, address, phone, sin, dob, dept)
+        {
+            Salary = salary;
         }
+
+        // Methods
     }
 }
