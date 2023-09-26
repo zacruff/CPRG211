@@ -1,3 +1,18 @@
+Average Weekly Pay for Each Salary Employee:
+Samuel Ludlow III: $394.23
+Dr. Evil: $19,230.77
+Sam Packitaway: $493.75
+
+Average Weekly Pay for Each Wage Employee:
+Fred Flintstone: $1,281.10
+Bob Never: $1,591.20
+Winnie Van Winnipeg: $1,081.10
+Elle Driver: $2,334.50
+
+Average Weekly Pay for Each Part Time Employee:
+Bill Partley: $369.90
+Perky Volunteer: $369.60
+
 The average weekly pay of all employees is: $3,016.24
 
 Highest Weekly Paid Wage Employee: Elle Driver
@@ -24,5 +39,5 @@ Salaried Employee Percentage: 33.33%
 Waged Employee Percentage: 44.44%
 Part Time Employee Percentage: 22.22%
 
-C:\Users\zacru\Documents\SAIT\YR1\CPRG211\InheritanceLab\InheritanceLab\bin\Debug\net6.0\InheritanceLab.exe (process 15632) exited with code 0.
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\InheritanceLab\InheritanceLab\bin\Debug\net6.0\InheritanceLab.exe (process 12004) exited with code 0.
 Press any key to close this window . . .

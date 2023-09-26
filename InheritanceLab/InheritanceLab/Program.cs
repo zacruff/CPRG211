@@ -60,23 +60,29 @@ namespace InheritanceLab
 
             // Average Weekly Pay for All Employees
             double totalPay = 0;
+            Console.WriteLine("Average Weekly Pay for Each Salary Employee:");
             foreach (Salaried employee in salariedEmployees)
             {
+                Console.WriteLine($"{employee.Name}: {employee.GetPay(employee.Salary):c}");
                 double pay = employee.GetPay(employee.Salary);
                 totalPay += pay;
             }
+            Console.WriteLine("\nAverage Weekly Pay for Each Wage Employee:");
             foreach (Wages employee in wagesEmployees)
             {
+                Console.WriteLine($"{employee.Name}: {employee.GetPay(employee.Rate, employee.Hours):c}");
                 double pay = employee.GetPay(employee.Rate, employee.Hours);
                 totalPay += pay;
             }
+            Console.WriteLine("\nAverage Weekly Pay for Each Part Time Employee:");
             foreach (PartTime employee in partTimeEmployees)
-            {
+            { 
+                Console.WriteLine($"{employee.Name}: {employee.GetPay(employee.Rate, employee.Hours):c}");
                 double pay = employee.GetPay(employee.Rate, employee.Hours);
                 totalPay += pay;
             }
             double avgPay = totalPay / employees.Count;
-            Console.WriteLine($"The average weekly pay of all employees is: {avgPay:c}\n");
+            Console.WriteLine($"\nThe average weekly pay of all employees is: {avgPay:c}\n");
 
             // Highest Weekly Pay for Wage Employees
             double highestPay = 0;
