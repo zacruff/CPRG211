@@ -90,7 +90,7 @@ namespace InheritanceLab
                     paidEmployee = employee;
                 }
             }
-            Console.WriteLine($"Highest Weekly Pay: {highestPay:c}");
+            Console.WriteLine($"Highest Weekly Paid Wage Employee: {highestPay:c}");
             Console.WriteLine(paidEmployee.ToString());
 
             // Lowest Salary Pay
@@ -105,16 +105,16 @@ namespace InheritanceLab
                     lowestPaidSalary = employee;
                 }
             }
-            Console.WriteLine($"Lowest Paid Salary: {lowestPay:c}");
+            Console.WriteLine($"Lowest Weekly Paid Salary: {lowestPay:c}");
             Console.WriteLine(lowestPaidSalary.ToString());
 
             // Calculating Percentages
             double employeeCount = employees.Count;
-            double salaryPercentage = salariedEmployees.Count / employeeCount;
+            double salaryPercentage = salariedEmployees.Count / employeeCount * 100;
             Console.WriteLine($"Salaried Employee Percentage: {salaryPercentage:f}%");
-            double wagePercentage = wagesEmployees.Count / employeeCount;
+            double wagePercentage = wagesEmployees.Count / employeeCount * 100;
             Console.WriteLine($"Waged Employee Percentage: {wagePercentage:f}%");
-            double partTimePercentage = partTimeEmployees.Count / employeeCount;
+            double partTimePercentage = partTimeEmployees.Count / employeeCount * 100;
             Console.WriteLine($"Part Time Employee Percentage: {partTimePercentage:f}%");
 
         }
