@@ -90,8 +90,9 @@ namespace InheritanceLab
                     paidEmployee = employee;
                 }
             }
-            Console.WriteLine($"Highest Weekly Paid Wage Employee: {highestPay:c}");
+            Console.WriteLine($"Highest Weekly Paid Wage Employee: {paidEmployee.Name}");
             Console.WriteLine(paidEmployee.ToString());
+            Console.WriteLine($"{paidEmployee.Name}'s weekly pay: {highestPay:c}\n");
 
             // Lowest Salary Pay
             double lowestPay = 999999;
@@ -105,8 +106,9 @@ namespace InheritanceLab
                     lowestPaidSalary = employee;
                 }
             }
-            Console.WriteLine($"Lowest Weekly Paid Salary: {lowestPay:c}");
+            Console.WriteLine($"Lowest Weekly Paid Salary Employee: {lowestPaidSalary.Name}");
             Console.WriteLine(lowestPaidSalary.ToString());
+            Console.WriteLine($"{lowestPaidSalary.Name}'s weekly pay: {lowestPay:c}\n");
 
             // Calculating Percentages
             double employeeCount = employees.Count;

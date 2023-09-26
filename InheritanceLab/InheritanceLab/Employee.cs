@@ -49,7 +49,7 @@ namespace InheritanceLab
             info += $"Phone: {phone}\n";
             info += $"SIN: {sin}\n";
             info += $"D.O.B: {dob}\n";
-            info += $"Dept: {dept}\n";
+            info += $"Dept: {dept}";
             return info;
         }
     }
