@@ -124,7 +124,6 @@ namespace InheritanceLab
             Console.WriteLine($"Waged Employee Percentage: {wagePercentage:f}%");
             double partTimePercentage = partTimeEmployees.Count / employeeCount * 100;
             Console.WriteLine($"Part Time Employee Percentage: {partTimePercentage:f}%");
-
         }
     }
 }
