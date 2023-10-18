@@ -1,13 +1,11 @@
-﻿namespace ClassLayout
+﻿namespace Exercises
 {
-    public class XYZ
+    internal class Program
     {
-        /// Constants
-        /// Fields
-        /// Properties
-        /// Constructors
-        /// Public Methods
-        /// Private Methods
+        static void Main(string[] args)
+        {
+            DeathStar deathStar = new DeathStar();
+            Console.Write(deathStar.FireLaser());
+        }
     }
 }
-

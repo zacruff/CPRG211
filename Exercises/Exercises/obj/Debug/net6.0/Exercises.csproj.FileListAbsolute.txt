@@ -2,3 +2,13 @@ C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\obj\Debug\net6.0\E
 C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\obj\Debug\net6.0\Exercises.AssemblyInfoInputs.cache
 C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\obj\Debug\net6.0\Exercises.AssemblyInfo.cs
 C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\obj\Debug\net6.0\Exercises.csproj.CoreCompileInputs.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\bin\Debug\net6.0\Exercises.exe
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\bin\Debug\net6.0\Exercises.deps.json
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\bin\Debug\net6.0\Exercises.runtimeconfig.json
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\bin\Debug\net6.0\Exercises.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\bin\Debug\net6.0\Exercises.pdb
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\obj\Debug\net6.0\Exercises.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\obj\Debug\net6.0\refint\Exercises.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\obj\Debug\net6.0\Exercises.pdb
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\obj\Debug\net6.0\Exercises.genruntimeconfig.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Exercises\Exercises\obj\Debug\net6.0\ref\Exercises.dll
