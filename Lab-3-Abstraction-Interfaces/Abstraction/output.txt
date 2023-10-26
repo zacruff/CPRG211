@@ -1,0 +1,18 @@
+Welcome to the Animal Abstraction Lab.
+Please enter a name for a dog: Chanel
+What color is Chanel? Brown
+How old is Chanel? 15
+Name: Chanel
+Age: 15
+Color: Brown
+Dogs eat meat.
+Please enter a name for a cat: Yuzu
+What color is Yuzu? White
+How old is Yuzu? 10
+Name: Yuzu
+Age: 10
+Color: White
+Cats eat mice
+
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\bin\Debug\net6.0\Abstraction.exe (process 19080) exited with code 0.
+Press any key to close this window . . .

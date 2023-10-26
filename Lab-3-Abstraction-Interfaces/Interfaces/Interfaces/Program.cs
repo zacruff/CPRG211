@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to the Animal Interfaces Lab.");
             // Create dog object
             Console.Write("Enter the name of a dog: ");
             string dogName = Console.ReadLine();

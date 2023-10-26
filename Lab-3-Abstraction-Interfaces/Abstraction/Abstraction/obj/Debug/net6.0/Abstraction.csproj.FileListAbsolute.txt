@@ -12,3 +12,17 @@ C:\Users\zacru\Documents\SAIT\YR1\CPRG211\LabAbstractionAndInterfaces\Abstractio
 C:\Users\zacru\Documents\SAIT\YR1\CPRG211\LabAbstractionAndInterfaces\Abstraction\Abstraction\obj\Debug\net6.0\Abstraction.pdb
 C:\Users\zacru\Documents\SAIT\YR1\CPRG211\LabAbstractionAndInterfaces\Abstraction\Abstraction\obj\Debug\net6.0\Abstraction.genruntimeconfig.cache
 C:\Users\zacru\Documents\SAIT\YR1\CPRG211\LabAbstractionAndInterfaces\Abstraction\Abstraction\obj\Debug\net6.0\ref\Abstraction.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\bin\Debug\net6.0\Abstraction.exe
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\bin\Debug\net6.0\Abstraction.deps.json
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\bin\Debug\net6.0\Abstraction.runtimeconfig.json
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\bin\Debug\net6.0\Abstraction.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\bin\Debug\net6.0\Abstraction.pdb
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\obj\Debug\net6.0\Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\obj\Debug\net6.0\Abstraction.AssemblyInfoInputs.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\obj\Debug\net6.0\Abstraction.AssemblyInfo.cs
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\obj\Debug\net6.0\Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\obj\Debug\net6.0\Abstraction.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\obj\Debug\net6.0\refint\Abstraction.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\obj\Debug\net6.0\Abstraction.pdb
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\obj\Debug\net6.0\Abstraction.genruntimeconfig.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Abstraction\Abstraction\obj\Debug\net6.0\ref\Abstraction.dll

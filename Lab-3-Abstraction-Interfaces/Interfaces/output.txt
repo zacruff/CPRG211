@@ -1,0 +1,30 @@
+Welcome to the Animal Interfaces Lab.
+Enter the name of a dog: Chanel
+Give Chanel a height (in inches): 26
+Give Chanel an age: 14
+Give Chanel a color: Brown
+Name: Chanel
+Color: Brown
+Height: 26
+Age: 14
+Dogs eat meat.
+Woof!
+Enter the name of a cat: Yuzu
+Give Yuzu a height (in inches): 23.4
+Give Yuzu an age: 10
+Give Yuzu a color: White
+Name: Yuzu
+Color: White
+Height: 23.4
+Age: 10
+Cats eat mice.
+Meow!
+Chanel
+Yuzu
+Cujo
+Peanut
+Garfield
+Cleopatra
+
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-3-Abstraction-Interfaces\Interfaces\Interfaces\bin\Debug\net6.0\Interfaces.exe (process 25856) exited with code 0.
+Press any key to close this window . . .
