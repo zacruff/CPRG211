@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zacru\\Documents\\SAIT\\YR1\\CPRG211\\LabAbstractionAndInterfaces\\Abstraction\\Abstraction\\Abstraction.csproj": {}
+    "C:\\Users\\zacru\\Documents\\SAIT\\YR1\\CPRG211\\Lab-3-Abstraction-Interfaces\\Abstraction\\Abstraction\\Abstraction.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zacru\\Documents\\SAIT\\YR1\\CPRG211\\LabAbstractionAndInterfaces\\Abstraction\\Abstraction\\Abstraction.csproj": {
+    "C:\\Users\\zacru\\Documents\\SAIT\\YR1\\CPRG211\\Lab-3-Abstraction-Interfaces\\Abstraction\\Abstraction\\Abstraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zacru\\Documents\\SAIT\\YR1\\CPRG211\\LabAbstractionAndInterfaces\\Abstraction\\Abstraction\\Abstraction.csproj",
+        "projectUniqueName": "C:\\Users\\zacru\\Documents\\SAIT\\YR1\\CPRG211\\Lab-3-Abstraction-Interfaces\\Abstraction\\Abstraction\\Abstraction.csproj",
         "projectName": "Abstraction",
-        "projectPath": "C:\\Users\\zacru\\Documents\\SAIT\\YR1\\CPRG211\\LabAbstractionAndInterfaces\\Abstraction\\Abstraction\\Abstraction.csproj",
+        "projectPath": "C:\\Users\\zacru\\Documents\\SAIT\\YR1\\CPRG211\\Lab-3-Abstraction-Interfaces\\Abstraction\\Abstraction\\Abstraction.csproj",
         "packagesPath": "C:\\Users\\zacru\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zacru\\Documents\\SAIT\\YR1\\CPRG211\\LabAbstractionAndInterfaces\\Abstraction\\Abstraction\\obj\\",
+        "outputPath": "C:\\Users\\zacru\\Documents\\SAIT\\YR1\\CPRG211\\Lab-3-Abstraction-Interfaces\\Abstraction\\Abstraction\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
