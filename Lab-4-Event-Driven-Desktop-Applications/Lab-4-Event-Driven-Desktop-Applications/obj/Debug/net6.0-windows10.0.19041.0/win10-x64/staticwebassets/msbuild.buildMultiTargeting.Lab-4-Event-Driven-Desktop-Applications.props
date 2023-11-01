@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lab-4-Event-Driven-Desktop-Applications.props" />
+</Project>
