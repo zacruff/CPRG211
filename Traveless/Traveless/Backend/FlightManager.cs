@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Traveless.Data.Backend.Entities;
+using Traveless.Backend.Entities;
 
-namespace Traveless.Data.Backend
+namespace Traveless.Backend
 {
 	public class FlightManager
 	{
@@ -17,13 +17,7 @@ namespace Traveless.Data.Backend
 
 		// Property
 
-		public IList<Flight> AllFlights
-		{
-			get
-			{
-				return this._flights.ToList();
-			}
-		}
+		public IList<Flight> Flights { get { return _flights; } }
 
 		// Constructor
 
@@ -32,17 +26,16 @@ namespace Traveless.Data.Backend
 		// Methods
 		public Flight FindFlightByCode(string code)
 		{
-			foreach (var flight in _flights) 
+			foreach (var flight in Flights) 
 			{
 				if (flight.Code == code)
 					return flight;
-				else
-					return null;
+				return null;
 			}
 			return null;
 		}
 
-		protected void LoadFlights()
+		public void LoadFlights()
 		{
             string[] lines = File.ReadAllLines(FLIGHTS_FILE);
 
@@ -56,12 +49,10 @@ namespace Traveless.Data.Backend
                 string time = columns[5];
                 int seats = int.Parse(columns[6]);
                 decimal costPerSeat = decimal.Parse(columns[7]);
+
                 Flight flight = new(code, from, to, weekday, time, seats, costPerSeat);
-
-                AllFlights.Add(flight);
-
+                Flights.Add(flight);
             }
-            
         }
 	}
 }

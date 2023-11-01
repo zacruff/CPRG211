@@ -1,29 +1,28 @@
-﻿@page "/flights"
-
-@using Traveless.Data.Backend
-@using Traveless.Data.Backend.Entities
-@using Microsoft.Maui.Storage
+﻿@using Microsoft.Maui.Storage
 @using System.IO
 @using System.Text.Json
 
+@inject FlightManager flightManager
+
+@page "/flights"
+
 <h3>Flight Finder</h3>
-    <div>
+    <form>
         <label for="from">From:</label>
-        <input type="text" id="from" name="from"/>
+        <input type="text" id="from" @bind-value="@OriginDestination" placeholder="Any" />
         <label for="to">To:</label>
-        <input type="text" id="to" name="to"/>
+        <input type="text" id="to" @bind-value="@FinalDestination" placeholder="Any" />
         <label for="day">Day:</label>
-        <input type="datetime" id="day" name="day"/>
-        <input type="submit" Value="Find Flights" class="submit"/>
-    </div>
+        <input type="datetime" id="day" @bind-value="@DepartureDay" placeholder="Any" />
+        <input type="submit" Value="Find Flights" class="submit" />
+    </form>
 
 <h3>Flights</h3>
 
 
 @code {
-    
-    private void FindFlights()
-    {
-        
-    }
+
+    private string OriginDestination { get; set; }
+    private string FinalDestination { get; set; }
+    private string DepartureDay { get; set; }
 }

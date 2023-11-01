@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>ZAC_LAPTOP</Machine>
+    <Machine>ZAC-DESKTOP</Machine>
     <WindowsUser>zacru</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>49D518BE-33E7-40CC-8568-52813265C4F5</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>3BA04225BB8821FE40F45D17A3A62A7431B5DD5D9E42D4516505C8AE416DEEA5</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>49D518BE-33E7-40CC-8568-52813265C4F5_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>49D518BE-33E7-40CC-8568-52813265C4F5_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,692 +27,692 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-01T18:31:42.709</Modified>
+      <Modified>2023-11-01T21:46:06.713</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-01T17:50:04.542</Modified>
+      <Modified>2023-11-01T21:46:06.490</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Traveless.runtimeconfig.json">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Traveless.runtimeconfig.json">
       <PackagePath>Traveless.runtimeconfig.json</PackagePath>
-      <Modified>2023-11-01T16:02:11.618</Modified>
+      <Modified>2023-11-01T19:57:50.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Traveless.dll">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Traveless.dll">
       <PackagePath>Traveless.dll</PackagePath>
-      <Modified>2023-11-01T18:31:41.366</Modified>
+      <Modified>2023-11-01T21:46:05.978</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Traveless.exe</PackagePath>
-      <Modified>2023-11-01T18:31:41.426</Modified>
+      <Modified>2023-11-01T21:46:05.987</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Traveless.deps.json">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Traveless.deps.json">
       <PackagePath>Traveless.deps.json</PackagePath>
-      <Modified>2023-11-01T16:14:10.811</Modified>
+      <Modified>2023-11-01T19:57:50.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
-      <Modified>2023-08-25T02:53:46.000</Modified>
+      <Modified>2023-07-13T22:05:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\Microsoft.VisualBasic.Core.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\Microsoft.VisualBasic.Core.dll">
       <PackagePath>Microsoft.VisualBasic.Core.dll</PackagePath>
-      <Modified>2023-08-25T02:53:46.000</Modified>
+      <Modified>2023-07-13T22:05:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\Microsoft.VisualBasic.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\Microsoft.Win32.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
-      <Modified>2023-08-25T02:53:48.000</Modified>
+      <Modified>2023-07-13T22:05:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\Microsoft.Win32.Registry.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\Microsoft.Win32.Registry.dll">
       <PackagePath>Microsoft.Win32.Registry.dll</PackagePath>
-      <Modified>2023-08-25T02:53:50.000</Modified>
+      <Modified>2023-07-13T22:05:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.AppContext.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Buffers.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Buffers.dll">
       <PackagePath>System.Buffers.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Collections.Concurrent.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
-      <Modified>2023-08-25T02:53:50.000</Modified>
+      <Modified>2023-07-13T22:05:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Collections.Immutable.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2023-08-25T02:53:54.000</Modified>
+      <Modified>2023-07-13T22:05:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Collections.NonGeneric.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Collections.NonGeneric.dll">
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
-      <Modified>2023-08-25T02:53:54.000</Modified>
+      <Modified>2023-07-13T22:05:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Collections.Specialized.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Collections.Specialized.dll">
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
-      <Modified>2023-08-25T02:53:56.000</Modified>
+      <Modified>2023-07-13T22:05:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Collections.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
-      <Modified>2023-08-25T02:53:52.000</Modified>
+      <Modified>2023-07-13T22:05:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.ComponentModel.Annotations.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.ComponentModel.Annotations.dll">
       <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
-      <Modified>2023-08-25T02:53:58.000</Modified>
+      <Modified>2023-07-13T22:06:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.ComponentModel.DataAnnotations.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.ComponentModel.EventBasedAsync.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.ComponentModel.EventBasedAsync.dll">
       <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
-      <Modified>2023-08-25T02:54:00.000</Modified>
+      <Modified>2023-07-13T22:06:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.ComponentModel.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.ComponentModel.Primitives.dll">
       <PackagePath>System.ComponentModel.Primitives.dll</PackagePath>
-      <Modified>2023-08-25T02:54:00.000</Modified>
+      <Modified>2023-07-13T22:06:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.ComponentModel.TypeConverter.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.ComponentModel.TypeConverter.dll">
       <PackagePath>System.ComponentModel.TypeConverter.dll</PackagePath>
-      <Modified>2023-08-25T02:54:02.000</Modified>
+      <Modified>2023-07-13T22:06:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.ComponentModel.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
-      <Modified>2023-08-25T02:53:58.000</Modified>
+      <Modified>2023-07-13T22:06:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Configuration.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Configuration.dll">
       <PackagePath>System.Configuration.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Console.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Console.dll">
       <PackagePath>System.Console.dll</PackagePath>
-      <Modified>2023-08-25T02:54:04.000</Modified>
+      <Modified>2023-07-13T22:06:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Core.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Core.dll">
       <PackagePath>System.Core.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Data.Common.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Data.Common.dll">
       <PackagePath>System.Data.Common.dll</PackagePath>
-      <Modified>2023-08-25T02:54:06.000</Modified>
+      <Modified>2023-07-13T22:06:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Data.DataSetExtensions.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Data.DataSetExtensions.dll">
       <PackagePath>System.Data.DataSetExtensions.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Data.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Data.dll">
       <PackagePath>System.Data.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Diagnostics.Contracts.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Diagnostics.Contracts.dll">
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Diagnostics.Debug.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Diagnostics.Debug.dll">
       <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Diagnostics.DiagnosticSource.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Diagnostics.DiagnosticSource.dll">
       <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
-      <Modified>2023-08-25T02:54:08.000</Modified>
+      <Modified>2023-07-13T22:06:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Diagnostics.FileVersionInfo.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Diagnostics.FileVersionInfo.dll">
       <PackagePath>System.Diagnostics.FileVersionInfo.dll</PackagePath>
-      <Modified>2023-08-25T02:54:08.000</Modified>
+      <Modified>2023-07-13T22:06:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Diagnostics.Process.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Diagnostics.Process.dll">
       <PackagePath>System.Diagnostics.Process.dll</PackagePath>
-      <Modified>2023-08-25T02:54:10.000</Modified>
+      <Modified>2023-07-13T22:06:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Diagnostics.StackTrace.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
-      <Modified>2023-08-25T02:54:10.000</Modified>
+      <Modified>2023-07-13T22:06:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Diagnostics.TextWriterTraceListener.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Diagnostics.TextWriterTraceListener.dll">
       <PackagePath>System.Diagnostics.TextWriterTraceListener.dll</PackagePath>
-      <Modified>2023-08-25T02:54:12.000</Modified>
+      <Modified>2023-07-13T22:06:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Diagnostics.Tools.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Diagnostics.Tools.dll">
       <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Diagnostics.TraceSource.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Diagnostics.TraceSource.dll">
       <PackagePath>System.Diagnostics.TraceSource.dll</PackagePath>
-      <Modified>2023-08-25T02:54:14.000</Modified>
+      <Modified>2023-07-13T22:06:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Diagnostics.Tracing.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Diagnostics.Tracing.dll">
       <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Drawing.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Drawing.Primitives.dll">
       <PackagePath>System.Drawing.Primitives.dll</PackagePath>
-      <Modified>2023-08-25T02:54:14.000</Modified>
+      <Modified>2023-07-13T22:06:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Drawing.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Drawing.dll">
       <PackagePath>System.Drawing.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Dynamic.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Dynamic.Runtime.dll">
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Formats.Asn1.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Formats.Asn1.dll">
       <PackagePath>System.Formats.Asn1.dll</PackagePath>
-      <Modified>2023-08-25T02:54:16.000</Modified>
+      <Modified>2023-07-13T22:06:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Globalization.Calendars.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Globalization.Calendars.dll">
       <PackagePath>System.Globalization.Calendars.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Globalization.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Globalization.Extensions.dll">
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Globalization.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Globalization.dll">
       <PackagePath>System.Globalization.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.Compression.Brotli.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.Compression.Brotli.dll">
       <PackagePath>System.IO.Compression.Brotli.dll</PackagePath>
-      <Modified>2023-08-25T02:54:16.000</Modified>
+      <Modified>2023-07-13T22:06:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.Compression.FileSystem.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.Compression.FileSystem.dll">
       <PackagePath>System.IO.Compression.FileSystem.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.Compression.ZipFile.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
-      <Modified>2023-08-25T02:54:20.000</Modified>
+      <Modified>2023-07-13T22:06:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.Compression.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
-      <Modified>2023-08-25T02:54:18.000</Modified>
+      <Modified>2023-07-13T22:06:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.FileSystem.AccessControl.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.FileSystem.AccessControl.dll">
       <PackagePath>System.IO.FileSystem.AccessControl.dll</PackagePath>
-      <Modified>2023-08-25T02:54:20.000</Modified>
+      <Modified>2023-07-13T22:06:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.FileSystem.DriveInfo.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.FileSystem.DriveInfo.dll">
       <PackagePath>System.IO.FileSystem.DriveInfo.dll</PackagePath>
-      <Modified>2023-08-25T02:54:22.000</Modified>
+      <Modified>2023-07-13T22:06:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.FileSystem.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.FileSystem.Watcher.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.FileSystem.Watcher.dll">
       <PackagePath>System.IO.FileSystem.Watcher.dll</PackagePath>
-      <Modified>2023-08-25T02:54:22.000</Modified>
+      <Modified>2023-07-13T22:06:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.FileSystem.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.FileSystem.dll">
       <PackagePath>System.IO.FileSystem.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.IsolatedStorage.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.IsolatedStorage.dll">
       <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
-      <Modified>2023-08-25T02:54:24.000</Modified>
+      <Modified>2023-07-13T22:06:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.MemoryMappedFiles.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.MemoryMappedFiles.dll">
       <PackagePath>System.IO.MemoryMappedFiles.dll</PackagePath>
-      <Modified>2023-08-25T02:54:26.000</Modified>
+      <Modified>2023-07-13T22:06:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.Pipes.AccessControl.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.Pipes.AccessControl.dll">
       <PackagePath>System.IO.Pipes.AccessControl.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.Pipes.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.Pipes.dll">
       <PackagePath>System.IO.Pipes.dll</PackagePath>
-      <Modified>2023-08-25T02:54:26.000</Modified>
+      <Modified>2023-07-13T22:06:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.UnmanagedMemoryStream.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.UnmanagedMemoryStream.dll">
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.IO.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.IO.dll">
       <PackagePath>System.IO.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Linq.Expressions.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
-      <Modified>2023-08-25T02:54:32.000</Modified>
+      <Modified>2023-07-13T22:06:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Linq.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Linq.Parallel.dll">
       <PackagePath>System.Linq.Parallel.dll</PackagePath>
-      <Modified>2023-08-25T02:54:34.000</Modified>
+      <Modified>2023-07-13T22:06:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Linq.Queryable.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Linq.Queryable.dll">
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
-      <Modified>2023-08-25T02:54:34.000</Modified>
+      <Modified>2023-07-13T22:06:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
-      <Modified>2023-08-25T02:54:28.000</Modified>
+      <Modified>2023-07-13T22:06:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Memory.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Memory.dll">
       <PackagePath>System.Memory.dll</PackagePath>
-      <Modified>2023-08-25T02:54:36.000</Modified>
+      <Modified>2023-07-13T22:06:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.Http.Json.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.Http.Json.dll">
       <PackagePath>System.Net.Http.Json.dll</PackagePath>
-      <Modified>2023-08-25T02:54:40.000</Modified>
+      <Modified>2023-07-13T22:06:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.Http.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
-      <Modified>2023-08-25T02:54:38.000</Modified>
+      <Modified>2023-07-13T22:06:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.HttpListener.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.HttpListener.dll">
       <PackagePath>System.Net.HttpListener.dll</PackagePath>
-      <Modified>2023-08-25T02:54:40.000</Modified>
+      <Modified>2023-07-13T22:06:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.Mail.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.Mail.dll">
       <PackagePath>System.Net.Mail.dll</PackagePath>
-      <Modified>2023-08-25T02:54:42.000</Modified>
+      <Modified>2023-07-13T22:06:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.NameResolution.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.NameResolution.dll">
       <PackagePath>System.Net.NameResolution.dll</PackagePath>
-      <Modified>2023-08-25T02:54:44.000</Modified>
+      <Modified>2023-07-13T22:06:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.NetworkInformation.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.NetworkInformation.dll">
       <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
-      <Modified>2023-08-25T02:54:44.000</Modified>
+      <Modified>2023-07-13T22:06:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.Ping.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.Ping.dll">
       <PackagePath>System.Net.Ping.dll</PackagePath>
-      <Modified>2023-08-25T02:54:46.000</Modified>
+      <Modified>2023-07-13T22:06:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.Primitives.dll">
       <PackagePath>System.Net.Primitives.dll</PackagePath>
-      <Modified>2023-08-25T02:54:48.000</Modified>
+      <Modified>2023-07-13T22:06:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.Quic.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.Quic.dll">
       <PackagePath>System.Net.Quic.dll</PackagePath>
-      <Modified>2023-08-25T02:54:48.000</Modified>
+      <Modified>2023-07-13T22:06:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.Requests.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.Requests.dll">
       <PackagePath>System.Net.Requests.dll</PackagePath>
-      <Modified>2023-08-25T02:54:50.000</Modified>
+      <Modified>2023-07-13T22:06:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.Security.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.Security.dll">
       <PackagePath>System.Net.Security.dll</PackagePath>
-      <Modified>2023-08-25T02:54:52.000</Modified>
+      <Modified>2023-07-13T22:06:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.ServicePoint.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.ServicePoint.dll">
       <PackagePath>System.Net.ServicePoint.dll</PackagePath>
-      <Modified>2023-08-25T02:54:52.000</Modified>
+      <Modified>2023-07-13T22:06:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.Sockets.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.Sockets.dll">
       <PackagePath>System.Net.Sockets.dll</PackagePath>
-      <Modified>2023-08-25T02:54:54.000</Modified>
+      <Modified>2023-07-13T22:07:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.WebClient.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.WebClient.dll">
       <PackagePath>System.Net.WebClient.dll</PackagePath>
-      <Modified>2023-08-25T02:54:54.000</Modified>
+      <Modified>2023-07-13T22:07:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.WebHeaderCollection.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.WebHeaderCollection.dll">
       <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
-      <Modified>2023-08-25T02:54:56.000</Modified>
+      <Modified>2023-07-13T22:07:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.WebProxy.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.WebProxy.dll">
       <PackagePath>System.Net.WebProxy.dll</PackagePath>
-      <Modified>2023-08-25T02:54:58.000</Modified>
+      <Modified>2023-07-13T22:07:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.WebSockets.Client.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.WebSockets.Client.dll">
       <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
-      <Modified>2023-08-25T02:54:58.000</Modified>
+      <Modified>2023-07-13T22:07:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.WebSockets.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.WebSockets.dll">
       <PackagePath>System.Net.WebSockets.dll</PackagePath>
-      <Modified>2023-08-25T02:55:00.000</Modified>
+      <Modified>2023-07-13T22:07:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Net.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Net.dll">
       <PackagePath>System.Net.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Numerics.Vectors.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Numerics.Vectors.dll">
       <PackagePath>System.Numerics.Vectors.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Numerics.dll">
       <PackagePath>System.Numerics.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.ObjectModel.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
-      <Modified>2023-08-25T02:55:00.000</Modified>
+      <Modified>2023-07-13T22:07:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Private.CoreLib.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Private.CoreLib.dll">
       <PackagePath>System.Private.CoreLib.dll</PackagePath>
-      <Modified>2023-08-25T02:26:32.000</Modified>
+      <Modified>2023-07-13T21:20:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Private.DataContractSerialization.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
-      <Modified>2023-08-25T02:55:04.000</Modified>
+      <Modified>2023-07-13T22:07:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Private.Uri.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
-      <Modified>2023-08-25T02:55:04.000</Modified>
+      <Modified>2023-07-13T22:07:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Private.Xml.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Private.Xml.Linq.dll">
       <PackagePath>System.Private.Xml.Linq.dll</PackagePath>
-      <Modified>2023-08-25T02:55:10.000</Modified>
+      <Modified>2023-07-13T22:07:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Private.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Private.Xml.dll">
       <PackagePath>System.Private.Xml.dll</PackagePath>
-      <Modified>2023-08-25T02:55:10.000</Modified>
+      <Modified>2023-07-13T22:07:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Reflection.DispatchProxy.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Reflection.DispatchProxy.dll">
       <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
-      <Modified>2023-08-25T02:55:12.000</Modified>
+      <Modified>2023-07-13T22:07:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Reflection.Emit.ILGeneration.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Reflection.Emit.ILGeneration.dll">
       <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Reflection.Emit.Lightweight.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Reflection.Emit.Lightweight.dll">
       <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Reflection.Emit.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Reflection.Emit.dll">
       <PackagePath>System.Reflection.Emit.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Reflection.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Reflection.Extensions.dll">
       <PackagePath>System.Reflection.Extensions.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Reflection.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
-      <Modified>2023-08-25T02:55:14.000</Modified>
+      <Modified>2023-07-13T22:07:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Reflection.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Reflection.Primitives.dll">
       <PackagePath>System.Reflection.Primitives.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Reflection.TypeExtensions.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
-      <Modified>2023-08-25T02:55:14.000</Modified>
+      <Modified>2023-07-13T22:07:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Reflection.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Reflection.dll">
       <PackagePath>System.Reflection.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Resources.Reader.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Resources.Reader.dll">
       <PackagePath>System.Resources.Reader.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Resources.ResourceManager.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Resources.ResourceManager.dll">
       <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Resources.Writer.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Resources.Writer.dll">
       <PackagePath>System.Resources.Writer.dll</PackagePath>
-      <Modified>2023-08-25T02:55:16.000</Modified>
+      <Modified>2023-07-13T22:07:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
-      <Modified>2023-08-25T02:55:18.000</Modified>
+      <Modified>2023-07-13T22:07:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.CompilerServices.VisualC.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.CompilerServices.VisualC.dll">
       <PackagePath>System.Runtime.CompilerServices.VisualC.dll</PackagePath>
-      <Modified>2023-08-25T02:55:18.000</Modified>
+      <Modified>2023-07-13T22:07:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.Extensions.dll">
       <PackagePath>System.Runtime.Extensions.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.Handles.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.Handles.dll">
       <PackagePath>System.Runtime.Handles.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.InteropServices.RuntimeInformation.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.InteropServices.RuntimeInformation.dll">
       <PackagePath>System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
-      <Modified>2023-08-25T02:55:20.000</Modified>
+      <Modified>2023-07-13T22:07:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.InteropServices.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.InteropServices.dll">
       <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
-      <Modified>2023-08-25T02:55:20.000</Modified>
+      <Modified>2023-07-13T22:07:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.Intrinsics.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.Intrinsics.dll">
       <PackagePath>System.Runtime.Intrinsics.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.Loader.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.Loader.dll">
       <PackagePath>System.Runtime.Loader.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.Numerics.dll">
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
-      <Modified>2023-08-25T02:55:22.000</Modified>
+      <Modified>2023-07-13T22:07:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.Serialization.Formatters.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.Serialization.Formatters.dll">
       <PackagePath>System.Runtime.Serialization.Formatters.dll</PackagePath>
-      <Modified>2023-08-25T02:55:24.000</Modified>
+      <Modified>2023-07-13T22:07:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.Serialization.Json.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.Serialization.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
-      <Modified>2023-08-25T02:55:24.000</Modified>
+      <Modified>2023-07-13T22:07:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.Serialization.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.Serialization.Xml.dll">
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.Serialization.dll">
       <PackagePath>System.Runtime.Serialization.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Security.AccessControl.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Security.AccessControl.dll">
       <PackagePath>System.Security.AccessControl.dll</PackagePath>
-      <Modified>2023-08-25T02:55:26.000</Modified>
+      <Modified>2023-07-13T22:07:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Security.Claims.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Security.Claims.dll">
       <PackagePath>System.Security.Claims.dll</PackagePath>
-      <Modified>2023-08-25T02:55:26.000</Modified>
+      <Modified>2023-07-13T22:07:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.Algorithms.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.Algorithms.dll">
       <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
-      <Modified>2023-08-25T02:55:28.000</Modified>
+      <Modified>2023-07-13T22:07:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.Cng.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.Cng.dll">
       <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
-      <Modified>2023-08-25T02:55:30.000</Modified>
+      <Modified>2023-07-13T22:07:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.Csp.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.Csp.dll">
       <PackagePath>System.Security.Cryptography.Csp.dll</PackagePath>
-      <Modified>2023-08-25T02:55:30.000</Modified>
+      <Modified>2023-07-13T22:07:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.Encoding.dll">
       <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
-      <Modified>2023-08-25T02:55:32.000</Modified>
+      <Modified>2023-07-13T22:07:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.OpenSsl.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.OpenSsl.dll">
       <PackagePath>System.Security.Cryptography.OpenSsl.dll</PackagePath>
-      <Modified>2023-08-25T02:55:34.000</Modified>
+      <Modified>2023-07-13T22:07:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.Primitives.dll">
       <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
-      <Modified>2023-08-25T02:55:34.000</Modified>
+      <Modified>2023-07-13T22:07:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.X509Certificates.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Security.Cryptography.X509Certificates.dll">
       <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
-      <Modified>2023-08-25T02:55:36.000</Modified>
+      <Modified>2023-07-13T22:07:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Security.Principal.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Security.Principal.Windows.dll">
       <PackagePath>System.Security.Principal.Windows.dll</PackagePath>
-      <Modified>2023-08-25T02:55:38.000</Modified>
+      <Modified>2023-07-13T22:07:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Security.Principal.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Security.SecureString.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Security.SecureString.dll">
       <PackagePath>System.Security.SecureString.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Security.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Security.dll">
       <PackagePath>System.Security.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.ServiceModel.Web.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.ServiceModel.Web.dll">
       <PackagePath>System.ServiceModel.Web.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.ServiceProcess.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.ServiceProcess.dll">
       <PackagePath>System.ServiceProcess.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Text.Encoding.CodePages.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Text.Encoding.CodePages.dll">
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
-      <Modified>2023-08-25T02:55:38.000</Modified>
+      <Modified>2023-07-13T22:07:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Text.Encoding.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Text.Encoding.Extensions.dll">
       <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Text.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Text.Encoding.dll">
       <PackagePath>System.Text.Encoding.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Text.Encodings.Web.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Text.Encodings.Web.dll">
       <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
-      <Modified>2023-08-25T02:55:40.000</Modified>
+      <Modified>2023-07-13T22:07:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Text.Json.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Text.Json.dll">
       <PackagePath>System.Text.Json.dll</PackagePath>
-      <Modified>2023-08-25T02:55:42.000</Modified>
+      <Modified>2023-07-13T22:07:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Text.RegularExpressions.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
-      <Modified>2023-08-25T02:55:44.000</Modified>
+      <Modified>2023-07-13T22:07:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Threading.Channels.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Threading.Channels.dll">
       <PackagePath>System.Threading.Channels.dll</PackagePath>
-      <Modified>2023-08-25T02:55:44.000</Modified>
+      <Modified>2023-07-13T22:07:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Threading.Overlapped.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Threading.Overlapped.dll">
       <PackagePath>System.Threading.Overlapped.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Threading.Tasks.Dataflow.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Threading.Tasks.Dataflow.dll">
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
-      <Modified>2023-08-25T02:55:46.000</Modified>
+      <Modified>2023-07-13T22:07:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Threading.Tasks.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Threading.Tasks.Extensions.dll">
       <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Threading.Tasks.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Threading.Tasks.Parallel.dll">
       <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
-      <Modified>2023-08-25T02:55:48.000</Modified>
+      <Modified>2023-07-13T22:07:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Threading.Tasks.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Threading.Tasks.dll">
       <PackagePath>System.Threading.Tasks.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Threading.Thread.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Threading.Thread.dll">
       <PackagePath>System.Threading.Thread.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Threading.ThreadPool.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Threading.ThreadPool.dll">
       <PackagePath>System.Threading.ThreadPool.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Threading.Timer.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Threading.Timer.dll">
       <PackagePath>System.Threading.Timer.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Threading.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Threading.dll">
       <PackagePath>System.Threading.dll</PackagePath>
-      <Modified>2023-08-25T02:55:46.000</Modified>
+      <Modified>2023-07-13T22:07:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Transactions.Local.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Transactions.Local.dll">
       <PackagePath>System.Transactions.Local.dll</PackagePath>
-      <Modified>2023-08-25T02:55:50.000</Modified>
+      <Modified>2023-07-13T22:07:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Transactions.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Transactions.dll">
       <PackagePath>System.Transactions.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.ValueTuple.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.ValueTuple.dll">
       <PackagePath>System.ValueTuple.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Web.HttpUtility.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Web.HttpUtility.dll">
       <PackagePath>System.Web.HttpUtility.dll</PackagePath>
-      <Modified>2023-08-25T02:55:50.000</Modified>
+      <Modified>2023-07-13T22:07:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Web.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Web.dll">
       <PackagePath>System.Web.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Windows.dll">
       <PackagePath>System.Windows.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Xml.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Xml.Linq.dll">
       <PackagePath>System.Xml.Linq.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Xml.ReaderWriter.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Xml.ReaderWriter.dll">
       <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Xml.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Xml.Serialization.dll">
       <PackagePath>System.Xml.Serialization.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Xml.XDocument.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Xml.XDocument.dll">
       <PackagePath>System.Xml.XDocument.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Xml.XPath.XDocument.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Xml.XPath.XDocument.dll">
       <PackagePath>System.Xml.XPath.XDocument.dll</PackagePath>
-      <Modified>2023-08-25T02:55:52.000</Modified>
+      <Modified>2023-07-13T22:08:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Xml.XPath.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Xml.XPath.dll">
       <PackagePath>System.Xml.XPath.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Xml.XmlDocument.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Xml.XmlDocument.dll">
       <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Xml.XmlSerializer.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.Xml.dll">
       <PackagePath>System.Xml.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\System.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\System.dll">
       <PackagePath>System.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\WindowsBase.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\WindowsBase.dll">
       <PackagePath>WindowsBase.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\mscorlib.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\mscorlib.dll">
       <PackagePath>mscorlib.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\netstandard.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\netstandard.dll">
       <PackagePath>netstandard.dll</PackagePath>
-      <Modified>2023-08-25T02:23:56.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.maui.core.runtime.win\6.0.553\lib\net6.0-windows10.0.19041\Microsoft.Maui.dll">
       <PackagePath>Microsoft.Maui.dll</PackagePath>
@@ -734,231 +734,231 @@
       <PackagePath>Microsoft.Maui.Essentials.dll</PackagePath>
       <Modified>2023-04-24T18:18:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\Microsoft.DiaSymReader.Native.amd64.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\Microsoft.DiaSymReader.Native.amd64.dll">
       <PackagePath>Microsoft.DiaSymReader.Native.amd64.dll</PackagePath>
-      <Modified>2023-08-03T17:11:30.000</Modified>
+      <Modified>2023-03-30T05:29:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\System.IO.Compression.Native.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\System.IO.Compression.Native.dll">
       <PackagePath>System.IO.Compression.Native.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-console-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-console-l1-1-0.dll">
       <PackagePath>api-ms-win-core-console-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-console-l1-2-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-console-l1-2-0.dll">
       <PackagePath>api-ms-win-core-console-l1-2-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-datetime-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-datetime-l1-1-0.dll">
       <PackagePath>api-ms-win-core-datetime-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-debug-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-debug-l1-1-0.dll">
       <PackagePath>api-ms-win-core-debug-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-errorhandling-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-errorhandling-l1-1-0.dll">
       <PackagePath>api-ms-win-core-errorhandling-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-fibers-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-fibers-l1-1-0.dll">
       <PackagePath>api-ms-win-core-fibers-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-file-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-file-l1-1-0.dll">
       <PackagePath>api-ms-win-core-file-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-file-l1-2-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-file-l1-2-0.dll">
       <PackagePath>api-ms-win-core-file-l1-2-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-file-l2-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-file-l2-1-0.dll">
       <PackagePath>api-ms-win-core-file-l2-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-handle-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-handle-l1-1-0.dll">
       <PackagePath>api-ms-win-core-handle-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-heap-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-heap-l1-1-0.dll">
       <PackagePath>api-ms-win-core-heap-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-interlocked-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-interlocked-l1-1-0.dll">
       <PackagePath>api-ms-win-core-interlocked-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-libraryloader-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-libraryloader-l1-1-0.dll">
       <PackagePath>api-ms-win-core-libraryloader-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-localization-l1-2-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-localization-l1-2-0.dll">
       <PackagePath>api-ms-win-core-localization-l1-2-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-memory-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-memory-l1-1-0.dll">
       <PackagePath>api-ms-win-core-memory-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-namedpipe-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-namedpipe-l1-1-0.dll">
       <PackagePath>api-ms-win-core-namedpipe-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-processenvironment-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-processenvironment-l1-1-0.dll">
       <PackagePath>api-ms-win-core-processenvironment-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-processthreads-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-processthreads-l1-1-0.dll">
       <PackagePath>api-ms-win-core-processthreads-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-processthreads-l1-1-1.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-processthreads-l1-1-1.dll">
       <PackagePath>api-ms-win-core-processthreads-l1-1-1.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-profile-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-profile-l1-1-0.dll">
       <PackagePath>api-ms-win-core-profile-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-rtlsupport-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-rtlsupport-l1-1-0.dll">
       <PackagePath>api-ms-win-core-rtlsupport-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-string-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-string-l1-1-0.dll">
       <PackagePath>api-ms-win-core-string-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-synch-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-synch-l1-1-0.dll">
       <PackagePath>api-ms-win-core-synch-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-synch-l1-2-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-synch-l1-2-0.dll">
       <PackagePath>api-ms-win-core-synch-l1-2-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-sysinfo-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-sysinfo-l1-1-0.dll">
       <PackagePath>api-ms-win-core-sysinfo-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-timezone-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-timezone-l1-1-0.dll">
       <PackagePath>api-ms-win-core-timezone-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-core-util-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-core-util-l1-1-0.dll">
       <PackagePath>api-ms-win-core-util-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-conio-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-conio-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-conio-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-convert-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-convert-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-convert-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-environment-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-environment-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-environment-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-filesystem-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-filesystem-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-filesystem-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-heap-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-heap-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-heap-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-locale-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-locale-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-locale-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-math-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-math-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-math-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-multibyte-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-multibyte-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-multibyte-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-private-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-private-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-private-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-process-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-process-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-process-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-runtime-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-runtime-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-runtime-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-stdio-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-stdio-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-stdio-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-string-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-string-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-string-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-time-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-time-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-time-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\api-ms-win-crt-utility-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\api-ms-win-crt-utility-l1-1-0.dll">
       <PackagePath>api-ms-win-crt-utility-l1-1-0.dll</PackagePath>
       <Modified>2021-09-11T20:05:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\clretwrc.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\clretwrc.dll">
       <PackagePath>clretwrc.dll</PackagePath>
-      <Modified>2023-08-25T02:21:34.000</Modified>
+      <Modified>2023-07-13T21:16:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\clrjit.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\clrjit.dll">
       <PackagePath>clrjit.dll</PackagePath>
-      <Modified>2023-08-25T02:17:08.000</Modified>
+      <Modified>2023-07-13T21:12:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\coreclr.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\coreclr.dll">
       <PackagePath>coreclr.dll</PackagePath>
-      <Modified>2023-08-25T02:23:26.000</Modified>
+      <Modified>2023-07-13T21:17:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\createdump.exe">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\createdump.exe">
       <PackagePath>createdump.exe</PackagePath>
-      <Modified>2023-08-25T02:21:14.000</Modified>
+      <Modified>2023-07-13T21:15:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\dbgshim.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\dbgshim.dll">
       <PackagePath>dbgshim.dll</PackagePath>
-      <Modified>2023-08-25T02:21:38.000</Modified>
+      <Modified>2023-07-13T21:16:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\hostfxr.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\hostfxr.dll">
       <PackagePath>hostfxr.dll</PackagePath>
-      <Modified>2023-08-25T02:47:50.000</Modified>
+      <Modified>2023-07-13T21:59:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\hostpolicy.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\hostpolicy.dll">
       <PackagePath>hostpolicy.dll</PackagePath>
-      <Modified>2023-08-25T02:48:06.000</Modified>
+      <Modified>2023-07-13T22:00:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\mscordaccore.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\mscordaccore.dll">
       <PackagePath>mscordaccore.dll</PackagePath>
-      <Modified>2023-08-25T02:28:26.000</Modified>
+      <Modified>2023-07-13T21:22:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\mscordaccore_amd64_amd64_6.0.2223.42425.dll">
-      <PackagePath>mscordaccore_amd64_amd64_6.0.2223.42425.dll</PackagePath>
-      <Modified>2023-08-25T02:28:26.000</Modified>
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\mscordaccore_amd64_amd64_6.0.2123.36311.dll">
+      <PackagePath>mscordaccore_amd64_amd64_6.0.2123.36311.dll</PackagePath>
+      <Modified>2023-07-13T21:22:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\mscordbi.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\mscordbi.dll">
       <PackagePath>mscordbi.dll</PackagePath>
-      <Modified>2023-08-25T02:28:04.000</Modified>
+      <Modified>2023-07-13T21:22:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\mscorrc.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\mscorrc.dll">
       <PackagePath>mscorrc.dll</PackagePath>
-      <Modified>2023-08-25T02:21:50.000</Modified>
+      <Modified>2023-07-13T21:16:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\msquic.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\msquic.dll">
       <PackagePath>msquic.dll</PackagePath>
-      <Modified>2023-08-25T02:23:58.000</Modified>
+      <Modified>2023-07-13T21:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\native\ucrtbase.dll">
+    <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\native\ucrtbase.dll">
       <PackagePath>ucrtbase.dll</PackagePath>
       <Modified>2021-09-11T20:05:14.000</Modified>
     </AppxPackagedFile>
@@ -1146,309 +1146,309 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-04-24T18:09:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2023-11-01T15:56:42.440</Modified>
+      <Modified>2023-11-01T19:14:52.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\Traveless.styles.css">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\Traveless.styles.css">
       <PackagePath>wwwroot\Traveless.styles.css</PackagePath>
-      <Modified>2023-11-01T15:56:57.624</Modified>
+      <Modified>2023-11-01T19:14:53.888</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\Traveless.bundle.scp.css">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\Traveless.bundle.scp.css">
       <PackagePath>wwwroot\Traveless.bundle.scp.css</PackagePath>
-      <Modified>2023-11-01T15:56:57.626</Modified>
+      <Modified>2023-11-01T19:14:53.888</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\css\app.css">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
-      <Modified>2023-11-01T15:56:42.298</Modified>
+      <Modified>2023-11-01T19:14:53.895</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\css\bootstrap\bootstrap.min.css">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
-      <Modified>2023-11-01T15:56:42.304</Modified>
+      <Modified>2023-11-01T19:14:53.895</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\css\bootstrap\bootstrap.min.css.map">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\css\bootstrap\bootstrap.min.css.map">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css.map</PackagePath>
-      <Modified>2023-11-01T15:56:42.309</Modified>
+      <Modified>2023-11-01T19:14:53.896</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css">
       <PackagePath>wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css</PackagePath>
-      <Modified>2023-11-01T15:56:42.372</Modified>
+      <Modified>2023-11-01T19:14:53.897</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\font\fonts\open-iconic.eot">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\font\fonts\open-iconic.eot">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.eot</PackagePath>
-      <Modified>2023-11-01T15:56:42.414</Modified>
+      <Modified>2023-11-01T19:14:53.898</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\font\fonts\open-iconic.otf">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\font\fonts\open-iconic.otf">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.otf</PackagePath>
-      <Modified>2023-11-01T15:56:42.420</Modified>
+      <Modified>2023-11-01T19:14:53.898</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\font\fonts\open-iconic.svg">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\font\fonts\open-iconic.svg">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.svg</PackagePath>
-      <Modified>2023-11-01T15:56:42.423</Modified>
+      <Modified>2023-11-01T19:14:53.898</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.ttf</PackagePath>
-      <Modified>2023-11-01T15:56:42.424</Modified>
+      <Modified>2023-11-01T19:14:53.899</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\font\fonts\open-iconic.woff">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\font\fonts\open-iconic.woff">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.woff</PackagePath>
-      <Modified>2023-11-01T15:56:42.425</Modified>
+      <Modified>2023-11-01T19:14:53.899</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\FONT-LICENSE">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\FONT-LICENSE">
       <PackagePath>wwwroot\css\open-iconic\FONT-LICENSE</PackagePath>
-      <Modified>2023-11-01T15:56:42.311</Modified>
+      <Modified>2023-11-01T19:14:53.897</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\ICON-LICENSE">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\ICON-LICENSE">
       <PackagePath>wwwroot\css\open-iconic\ICON-LICENSE</PackagePath>
-      <Modified>2023-11-01T15:56:42.360</Modified>
+      <Modified>2023-11-01T19:14:53.897</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\README.md">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\css\open-iconic\README.md">
       <PackagePath>wwwroot\css\open-iconic\README.md</PackagePath>
-      <Modified>2023-11-01T15:56:42.368</Modified>
+      <Modified>2023-11-01T19:14:53.897</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\favicon.ico">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\favicon.ico">
       <PackagePath>wwwroot\favicon.ico</PackagePath>
-      <Modified>2023-11-01T15:56:42.494</Modified>
+      <Modified>2023-11-01T19:14:53.899</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\wwwroot\index.html">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
-      <Modified>2023-11-01T15:56:42.496</Modified>
+      <Modified>2023-11-01T19:14:53.899</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.164</Modified>
+      <Modified>2023-11-01T19:14:53.885</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.189</Modified>
+      <Modified>2023-11-01T19:14:53.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.214</Modified>
+      <Modified>2023-11-01T19:14:53.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.246</Modified>
+      <Modified>2023-11-01T19:14:53.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.375</Modified>
+      <Modified>2023-11-01T19:14:53.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2023-11-01T15:56:42.437</Modified>
+      <Modified>2023-11-01T19:14:53.874</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-11-01T15:56:59.420</Modified>
+      <Modified>2023-11-01T19:14:53.874</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.720</Modified>
+      <Modified>2023-11-01T19:14:53.875</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.732</Modified>
+      <Modified>2023-11-01T19:14:53.875</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.743</Modified>
+      <Modified>2023-11-01T19:14:53.875</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.761</Modified>
+      <Modified>2023-11-01T19:14:53.875</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.830</Modified>
+      <Modified>2023-11-01T19:14:53.876</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.523</Modified>
+      <Modified>2023-11-01T19:14:53.876</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.527</Modified>
+      <Modified>2023-11-01T19:14:53.876</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.544</Modified>
+      <Modified>2023-11-01T19:14:53.876</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.531</Modified>
+      <Modified>2023-11-01T19:14:53.876</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.536</Modified>
+      <Modified>2023-11-01T19:14:53.877</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.499</Modified>
+      <Modified>2023-11-01T19:14:53.877</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.502</Modified>
+      <Modified>2023-11-01T19:14:53.877</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.519</Modified>
+      <Modified>2023-11-01T19:14:53.877</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.507</Modified>
+      <Modified>2023-11-01T19:14:53.877</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.511</Modified>
+      <Modified>2023-11-01T19:14:53.877</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.448</Modified>
+      <Modified>2023-11-01T19:14:53.878</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.454</Modified>
+      <Modified>2023-11-01T19:14:53.878</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.459</Modified>
+      <Modified>2023-11-01T19:14:53.878</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.464</Modified>
+      <Modified>2023-11-01T19:14:53.878</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.471</Modified>
+      <Modified>2023-11-01T19:14:53.878</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.475</Modified>
+      <Modified>2023-11-01T19:14:53.878</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.479</Modified>
+      <Modified>2023-11-01T19:14:53.879</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.495</Modified>
+      <Modified>2023-11-01T19:14:53.879</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.483</Modified>
+      <Modified>2023-11-01T19:14:53.879</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.488</Modified>
+      <Modified>2023-11-01T19:14:53.879</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.603</Modified>
+      <Modified>2023-11-01T19:14:53.879</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.609</Modified>
+      <Modified>2023-11-01T19:14:53.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.616</Modified>
+      <Modified>2023-11-01T19:14:53.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.624</Modified>
+      <Modified>2023-11-01T19:14:53.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.641</Modified>
+      <Modified>2023-11-01T19:14:53.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.574</Modified>
+      <Modified>2023-11-01T19:14:53.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.579</Modified>
+      <Modified>2023-11-01T19:14:53.881</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.584</Modified>
+      <Modified>2023-11-01T19:14:53.881</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.588</Modified>
+      <Modified>2023-11-01T19:14:53.881</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.599</Modified>
+      <Modified>2023-11-01T19:14:53.881</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.550</Modified>
+      <Modified>2023-11-01T19:14:53.881</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.554</Modified>
+      <Modified>2023-11-01T19:14:53.881</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.559</Modified>
+      <Modified>2023-11-01T19:14:53.882</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.563</Modified>
+      <Modified>2023-11-01T19:14:53.882</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.570</Modified>
+      <Modified>2023-11-01T19:14:53.883</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.647</Modified>
+      <Modified>2023-11-01T19:14:53.883</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.655</Modified>
+      <Modified>2023-11-01T19:14:53.883</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.664</Modified>
+      <Modified>2023-11-01T19:14:53.883</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.678</Modified>
+      <Modified>2023-11-01T19:14:53.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.711</Modified>
+      <Modified>2023-11-01T19:14:53.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.490</Modified>
+      <Modified>2023-11-01T19:14:53.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.501</Modified>
+      <Modified>2023-11-01T19:14:53.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.516</Modified>
+      <Modified>2023-11-01T19:14:53.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.541</Modified>
+      <Modified>2023-11-01T19:14:53.885</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-11-01T15:56:59.595</Modified>
+      <Modified>2023-11-01T19:14:53.885</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\Shared\MainLayout.razor.css">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>
-      <Modified>2023-11-01T15:56:42.444</Modified>
+      <Modified>2023-11-01T19:14:52.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Traveless\Traveless\Shared\NavMenu.razor.css">
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\Shared\NavMenu.razor.css">
       <PackagePath>Shared\NavMenu.razor.css</PackagePath>
-      <Modified>2023-11-01T15:56:42.489</Modified>
+      <Modified>2023-11-01T19:14:52.174</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
