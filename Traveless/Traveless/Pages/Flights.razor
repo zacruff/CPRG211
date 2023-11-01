@@ -1,0 +1,29 @@
+﻿@page "/flights"
+
+@using Traveless.Data.Backend
+@using Traveless.Data.Backend.Entities
+@using Microsoft.Maui.Storage
+@using System.IO
+@using System.Text.Json
+
+<h3>Flight Finder</h3>
+    <div>
+        <label for="from">From:</label>
+        <input type="text" id="from" name="from"/>
+        <label for="to">To:</label>
+        <input type="text" id="to" name="to"/>
+        <label for="day">Day:</label>
+        <input type="datetime" id="day" name="day"/>
+        <input type="submit" Value="Find Flights" class="submit"/>
+    </div>
+
+<h3>Flights</h3>
+
+
+@code {
+    
+    private void FindFlights()
+    {
+        
+    }
+}
