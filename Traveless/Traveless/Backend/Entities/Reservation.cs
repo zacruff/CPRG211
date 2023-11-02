@@ -29,7 +29,27 @@ namespace Traveless.Backend.Entities
         // Methods
         public string GenerateReservationCode(Flight flight)
         {
-            return Code;
+            Random res = new Random();
+            String code = "";
+
+            String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            int size = 1;
+
+            for (int i = 0; i < size; i++)
+            {
+
+                int x = res.Next(26);
+                code = code + str[x];
+            }
+
+            String num = "123456789";
+            int size2 = 4;
+            for (int i = 0;i < size2; i++)
+            {
+                int x = res.Next(9);
+                code = code + num[x];
+            }
+            return "Reservation Code: " + code;
         }
         public bool Equals(Object obj)
         {

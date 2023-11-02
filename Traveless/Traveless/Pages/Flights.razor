@@ -4,9 +4,7 @@
 @using Traveless.Backend
 @using Traveless.Backend.Entities
 @inject FlightManager flightManager
-@inject AirlineManager airlineManager
-@inject AirportManager airportManager
-@inject ReservationManager reservationManager
+@inject Reservation reservation
 
 @page "/flights"
 
@@ -37,18 +35,18 @@
             <ul class="searchClass">
                 <li class="searchClass">
                     <label for="from">From:</label>
-                    <input type="text" id="from" name="From" placeholder="Any" @bind-value="@OriginDestination" />
+                    <input type="text" id="from" name="From" placeholder="Any" @bind-value="@originDestination" />
                 </li>
                 <li class="searchClass">
                     <label for="to">To:</label>
-                    <input type="text" id="to" name="To" placeholder="Any" @bind-value="@FinalDestination" />
+                    <input type="text" id="to" name="To" placeholder="Any" @bind-value="@finalDestination" />
                 </li>
                 <li class="searchClass">
                     <label for="day">Day:</label>
-                    <input type="text" id="day" name="Day" placeholder="Any" @bind-value="@DepartureDay" />
+                    <input type="text" id="day" name="Day" placeholder="Any" @bind-value="@departureDay" />
                 </li>
                 <li class="searchClass">
-                    <input type="submit" value="Find Flights" @onclick="FoundFlight" />
+                    <input type="submit" value="Find Flights" @onclick="FindFlight" />
                 </li>
              </ul>
         </div>
@@ -56,7 +54,7 @@
     <h3>Flights</h3>
 
     <div>
-        <input placeholder="Loading" @bind="FlightFound" />
+        <input placeholder="Loading" @bind="selectedFlight" />
     </div>
 
     <h3>Reserve</h3>
@@ -92,29 +90,37 @@
                 <input type="text" id="citizenship" name="Citizenship" placeholder="..." />
             </li>
             <li class="reservationDetails">
-                <input type="submit" value="Reserve" />
+                <input type="submit" value="Reserve" @onclick="GenerateResCode" />
             </li>
         </ul>
     </div>
+    <div>
+        <input type="text" placeholder="Reservation Code:" @bind="reservationCode" />
+    </div>
 </body>
 @code {
-    private string OriginDestination { get; set; }
-    private string FinalDestination { get; set; }
-    private string DepartureDay { get; set; }
-    private string FlightFound { get; set; }
+    private string originDestination { get; set; }
+    private string finalDestination { get; set; }
+    private string departureDay { get; set; }
+    private string selectedFlight { get; set; }
+    private Flight newFlight{ get; set; }
+    private string reservationCode { get; set; }
 
-    private void FoundFlight()
+    private void FindFlight()
     {
         flightManager.LoadFlights();
-        airlineManager.LoadAirlines();
         foreach (Flight flight in flightManager.Flights)
         {
-            if (OriginDestination == flight.From && FinalDestination == flight.To && DepartureDay == flight.WeekDay)
+            if (originDestination == flight.From && finalDestination == flight.To && departureDay == flight.WeekDay)
             {
-                FlightFound = $"{flight.AirlineCode}, {flight.From}, {flight.To}, {flight.WeekDay}, {flight.Time}, {flight.CostPerSeat}";
+                selectedFlight = $"{flight.AirlineCode}, {flight.From}, {flight.To}, {flight.WeekDay}, {flight.Time}, {flight.CostPerSeat}";
                 break;
             } else
-                FlightFound = "Flight not found";
+                selectedFlight = "Flight not found";
         }
+    }
+    private void GenerateResCode()
+    {
+        reservationCode = reservation.GenerateReservationCode(newFlight);
     }
 }
