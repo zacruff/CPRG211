@@ -34,6 +34,15 @@
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Traveless.dll">
       <PackagePath>Traveless.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\Data\airlines.csv">
+      <PackagePath>Data\airlines.csv</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\Data\airports.csv">
+      <PackagePath>Data\airports.csv</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\Data\flights.csv">
+      <PackagePath>Data\flights.csv</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Traveless.exe</PackagePath>
     </AppxPackagedFile>

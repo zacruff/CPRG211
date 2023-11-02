@@ -16,6 +16,10 @@ public static class MauiProgram
 			});
 
 		builder.Services.AddMauiBlazorWebView();
+		builder.Services.AddTransient<FlightManager>();
+		builder.Services.AddTransient<AirlineManager>();
+		builder.Services.AddTransient<AirportManager>();
+		builder.Services.AddTransient<ReservationManager>();
 		#if DEBUG
 		builder.Services.AddBlazorWebViewDeveloperTools();
 #endif

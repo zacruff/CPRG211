@@ -30,29 +30,41 @@
     <AppXManifest Include="F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-01T21:46:06.713</Modified>
+      <Modified>2023-11-02T01:28:48.627</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-01T21:46:06.490</Modified>
+      <Modified>2023-11-02T01:00:19.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Traveless.runtimeconfig.json">
       <PackagePath>Traveless.runtimeconfig.json</PackagePath>
-      <Modified>2023-11-01T19:57:50.973</Modified>
+      <Modified>2023-11-02T00:14:12.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Traveless.dll">
       <PackagePath>Traveless.dll</PackagePath>
-      <Modified>2023-11-01T21:46:05.978</Modified>
+      <Modified>2023-11-02T01:28:47.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\Data\airlines.csv">
+      <PackagePath>Data\airlines.csv</PackagePath>
+      <Modified>2023-11-01T19:14:52.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\Data\airports.csv">
+      <PackagePath>Data\airports.csv</PackagePath>
+      <Modified>2023-11-01T19:14:52.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\Data\flights.csv">
+      <PackagePath>Data\flights.csv</PackagePath>
+      <Modified>2023-11-01T19:14:52.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Traveless.exe</PackagePath>
-      <Modified>2023-11-01T21:46:05.987</Modified>
+      <Modified>2023-11-02T01:28:47.946</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Traveless.deps.json">
       <PackagePath>Traveless.deps.json</PackagePath>
-      <Modified>2023-11-01T19:57:50.884</Modified>
+      <Modified>2023-11-02T00:42:47.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zacru\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.21\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1152,11 +1164,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\Traveless.styles.css">
       <PackagePath>wwwroot\Traveless.styles.css</PackagePath>
-      <Modified>2023-11-01T19:14:53.888</Modified>
+      <Modified>2023-11-02T00:13:33.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\Traveless.bundle.scp.css">
       <PackagePath>wwwroot\Traveless.bundle.scp.css</PackagePath>
-      <Modified>2023-11-01T19:14:53.888</Modified>
+      <Modified>2023-11-02T00:13:33.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
@@ -1216,231 +1228,231 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.885</Modified>
+      <Modified>2023-11-02T00:13:37.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.886</Modified>
+      <Modified>2023-11-02T00:13:37.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.886</Modified>
+      <Modified>2023-11-02T00:13:37.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.886</Modified>
+      <Modified>2023-11-02T00:13:37.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.886</Modified>
+      <Modified>2023-11-02T00:13:37.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2023-11-01T19:14:53.874</Modified>
+      <Modified>2023-11-01T19:14:52.172</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-11-01T19:14:53.874</Modified>
+      <Modified>2023-11-02T00:13:37.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.875</Modified>
+      <Modified>2023-11-02T00:13:38.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.875</Modified>
+      <Modified>2023-11-02T00:13:38.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.875</Modified>
+      <Modified>2023-11-02T00:13:38.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.875</Modified>
+      <Modified>2023-11-02T00:13:38.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.876</Modified>
+      <Modified>2023-11-02T00:13:38.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.876</Modified>
+      <Modified>2023-11-02T00:13:38.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.876</Modified>
+      <Modified>2023-11-02T00:13:38.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.876</Modified>
+      <Modified>2023-11-02T00:13:38.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.876</Modified>
+      <Modified>2023-11-02T00:13:38.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.877</Modified>
+      <Modified>2023-11-02T00:13:38.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.877</Modified>
+      <Modified>2023-11-02T00:13:38.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.877</Modified>
+      <Modified>2023-11-02T00:13:38.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.877</Modified>
+      <Modified>2023-11-02T00:13:38.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.877</Modified>
+      <Modified>2023-11-02T00:13:38.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.877</Modified>
+      <Modified>2023-11-02T00:13:38.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.878</Modified>
+      <Modified>2023-11-02T00:13:37.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.878</Modified>
+      <Modified>2023-11-02T00:13:38.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.878</Modified>
+      <Modified>2023-11-02T00:13:38.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.878</Modified>
+      <Modified>2023-11-02T00:13:38.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.878</Modified>
+      <Modified>2023-11-02T00:13:38.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.878</Modified>
+      <Modified>2023-11-02T00:13:38.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.879</Modified>
+      <Modified>2023-11-02T00:13:38.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.879</Modified>
+      <Modified>2023-11-02T00:13:38.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.879</Modified>
+      <Modified>2023-11-02T00:13:38.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.879</Modified>
+      <Modified>2023-11-02T00:13:38.024</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.879</Modified>
+      <Modified>2023-11-02T00:13:38.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.880</Modified>
+      <Modified>2023-11-02T00:13:38.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.880</Modified>
+      <Modified>2023-11-02T00:13:38.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.880</Modified>
+      <Modified>2023-11-02T00:13:38.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.880</Modified>
+      <Modified>2023-11-02T00:13:38.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.880</Modified>
+      <Modified>2023-11-02T00:13:38.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.881</Modified>
+      <Modified>2023-11-02T00:13:38.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.881</Modified>
+      <Modified>2023-11-02T00:13:38.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.881</Modified>
+      <Modified>2023-11-02T00:13:38.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.881</Modified>
+      <Modified>2023-11-02T00:13:38.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.881</Modified>
+      <Modified>2023-11-02T00:13:38.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.881</Modified>
+      <Modified>2023-11-02T00:13:38.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.882</Modified>
+      <Modified>2023-11-02T00:13:38.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.882</Modified>
+      <Modified>2023-11-02T00:13:38.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.883</Modified>
+      <Modified>2023-11-02T00:13:38.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.883</Modified>
+      <Modified>2023-11-02T00:13:38.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.883</Modified>
+      <Modified>2023-11-02T00:13:38.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.883</Modified>
+      <Modified>2023-11-02T00:13:38.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.884</Modified>
+      <Modified>2023-11-02T00:13:38.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.884</Modified>
+      <Modified>2023-11-02T00:13:38.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.884</Modified>
+      <Modified>2023-11-02T00:13:38.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.884</Modified>
+      <Modified>2023-11-02T00:13:38.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.884</Modified>
+      <Modified>2023-11-02T00:13:38.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.885</Modified>
+      <Modified>2023-11-02T00:13:38.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-11-01T19:14:53.885</Modified>
+      <Modified>2023-11-02T00:13:38.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Coding\CPRG211\Traveless\Traveless\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>

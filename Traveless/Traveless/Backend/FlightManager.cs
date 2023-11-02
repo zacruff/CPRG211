@@ -13,28 +13,17 @@ namespace Traveless.Backend
 		protected List<Flight> _flights;
 
 		// Constant
-		public const string FLIGHTS_FILE = "Data/flights.csv";
+		public string FLIGHTS_FILE = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data\\flights.csv");
 
-		// Property
+        // Property
 
-		public IList<Flight> Flights { get { return _flights; } }
+        public List<Flight> Flights { get; set; } = new();
 
 		// Constructor
 
 		public FlightManager() { }
 
 		// Methods
-		public Flight FindFlightByCode(string code)
-		{
-			foreach (var flight in Flights) 
-			{
-				if (flight.Code == code)
-					return flight;
-				return null;
-			}
-			return null;
-		}
-
 		public void LoadFlights()
 		{
             string[] lines = File.ReadAllLines(FLIGHTS_FILE);

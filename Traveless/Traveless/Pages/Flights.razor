@@ -1,26 +1,96 @@
 ﻿@using Microsoft.Maui.Storage
 @using System.IO
 @using System.Text.Json
+@using Traveless.Backend
+@using Traveless.Backend.Entities
+@inject FlightManager flightManager
+@inject AirlineManager airlineManager
+@inject AirportManager airportManager
+@inject ReservationManager reservationManager
 
 @page "/flights"
 
-<h3>Flight Finder</h3>
-    <form>
-        <label for="from">From:</label>
-        <input type="text" id="from" @bind-value="@OriginDestination" placeholder="Any" />
-        <label for="to">To:</label>
-        <input type="text" id="to" @bind-value="@FinalDestination" placeholder="Any" />
+<style> 
+    body {
+        margin: auto;
+        text-align: center;
+    }
+    input {
+        width: auto;
+    }
+    ul li {
+        display: inline;
+        list-style-type: none;
+    }
+
+</style>
+
+<body>
+    <h3>Flight Finder</h3>
+
+        <div>
+            <ul class="SearchForClass">
+                <li>
+                    <label for="from">From:</label>
+                    <input type="text" id="from" name="From" placeholder="Any" @bind-value="@OriginDestination" />
+                </li>
+                <li>
+                    <label for="to">To:</label>
+                    <input type="text" id="to" name="To" placeholder="Any" @bind-value="@FinalDestination" />
+                </li>
+                <li>
+                    <label for="day">Day:</label>
+                    <input type="text" id="day" name="Day" placeholder="Any" @bind-value="@DepartureDay" />
+                </li>
+                <li>
+                    <input type="submit" placeholder="Loading" @onclick="FoundFlight" />
+                </li>
+             </ul>
+        </div>
+
+    <h3>Flights</h3>
+
+    <div>
+        <input @bind="FlightFound" />
+    </div>
+
+    <h3>Reserve</h3>
+
+    <div>
+        <label for="flightCode">Flight Code:</label>
+        <input type="text" id="flightCode" name="FlightCode" placeholder="LL-DDDD" />
+        <label for="airline">Airline:</label>
+        <input type="text" id="airline" name="Airline" placeholder="Airline" />
         <label for="day">Day:</label>
-        <input type="datetime" id="day" @bind-value="@DepartureDay" placeholder="Any" />
-        <input type="submit" Value="Find Flights" class="submit" />
-    </form>
-
-<h3>Flights</h3>
-
-
+        <input type="text" id="day" name="Day" placeholder="Day" />
+        <label for="time">Time:</label>
+        <input type="text" id="time" name="Time" placeholder="HH:MM" />
+        <label for="cost">Cost:</label>
+        <input type="text" id="cost" name="Cost" placeholder="$" />
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="Name" placeholder="John/Jane Doe" />
+        <label for="citizenship">Citizenship:</label>
+        <input type="text" id="citizenship" name="Citizenship" placeholder="..." />
+    </div>
+</body>
 @code {
-
     private string OriginDestination { get; set; }
     private string FinalDestination { get; set; }
     private string DepartureDay { get; set; }
+    private string FlightFound { get; set; }
+
+    private void FoundFlight()
+    {
+        flightManager.LoadFlights();
+        airlineManager.LoadAirlines();
+        foreach (Flight flight in flightManager.Flights)
+        {
+            if (OriginDestination == flight.From && FinalDestination == flight.To && DepartureDay == flight.WeekDay)
+            {
+                FlightFound = $"{flight.AirlineCode}, {flight.From}, {flight.To}, {flight.WeekDay}, {flight.Time}, {flight.CostPerSeat}";
+                break;
+            } else
+                FlightFound = "Flight not found";
+        }
+    }
 }

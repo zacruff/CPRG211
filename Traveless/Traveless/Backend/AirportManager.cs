@@ -13,10 +13,10 @@ namespace Traveless.Backend
         protected List<Airport> _airports;
 
         // Constant
-        public const string AIRPORTS_FILE = "Data/airports.csv";
+        public string AIRPORTS_FILE = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data\\airports.csv");
 
         // Property
-        public IList<Airport> Airports { get {  return _airports; } }
+        public List<Airport> Airports { get; set; } = new();
 
         // Constructor
         public AirportManager() { }
