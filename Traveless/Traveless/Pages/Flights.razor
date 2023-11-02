@@ -18,8 +18,13 @@
     input {
         width: auto;
     }
-    ul li {
+    .searchClass {
         display: inline;
+        list-style-type: none;
+    }
+
+    .reservationDetails {
+        display;
         list-style-type: none;
     }
 
@@ -29,21 +34,21 @@
     <h3>Flight Finder</h3>
 
         <div>
-            <ul class="SearchForClass">
-                <li>
+            <ul class="searchClass">
+                <li class="searchClass">
                     <label for="from">From:</label>
                     <input type="text" id="from" name="From" placeholder="Any" @bind-value="@OriginDestination" />
                 </li>
-                <li>
+                <li class="searchClass">
                     <label for="to">To:</label>
                     <input type="text" id="to" name="To" placeholder="Any" @bind-value="@FinalDestination" />
                 </li>
-                <li>
+                <li class="searchClass">
                     <label for="day">Day:</label>
                     <input type="text" id="day" name="Day" placeholder="Any" @bind-value="@DepartureDay" />
                 </li>
-                <li>
-                    <input type="submit" placeholder="Loading" @onclick="FoundFlight" />
+                <li class="searchClass">
+                    <input type="submit" value="Find Flights" @onclick="FoundFlight" />
                 </li>
              </ul>
         </div>
@@ -51,26 +56,45 @@
     <h3>Flights</h3>
 
     <div>
-        <input @bind="FlightFound" />
+        <input placeholder="Loading" @bind="FlightFound" />
     </div>
 
     <h3>Reserve</h3>
 
     <div>
-        <label for="flightCode">Flight Code:</label>
-        <input type="text" id="flightCode" name="FlightCode" placeholder="LL-DDDD" />
-        <label for="airline">Airline:</label>
-        <input type="text" id="airline" name="Airline" placeholder="Airline" />
-        <label for="day">Day:</label>
-        <input type="text" id="day" name="Day" placeholder="Day" />
-        <label for="time">Time:</label>
-        <input type="text" id="time" name="Time" placeholder="HH:MM" />
-        <label for="cost">Cost:</label>
-        <input type="text" id="cost" name="Cost" placeholder="$" />
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="Name" placeholder="John/Jane Doe" />
-        <label for="citizenship">Citizenship:</label>
-        <input type="text" id="citizenship" name="Citizenship" placeholder="..." />
+        <ul class="reservationDetails">
+            <li class="reservationDetails">
+                <label for="flightCode">Flight Code:</label>
+                <input type="text" id="flightCode" name="FlightCode" placeholder="LL-DDDD" />
+            </li>
+            <li class="reservationDetails">
+                <label for="airline">Airline:</label>
+                <input type="text" id="airline" name="Airline" placeholder="Airline" />
+            </li>
+            <li class="reservationDetails">
+                <label for="day">Day:</label>
+                <input type="text" id="day" name="Day" placeholder="Day" />
+            </li>
+            <li class="reservationDetails">
+                <label for="time">Time:</label>
+                <input type="text" id="time" name="Time" placeholder="HH:MM" />
+            </li>
+            <li class="reservationDetails">
+                <label for="cost">Cost:</label>
+                <input type="text" id="cost" name="Cost" placeholder="$" />
+            </li>
+            <li class="reservationDetails">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Name" placeholder="John/Jane Doe" />
+            </li>
+            <li class="reservationDetails">
+                <label for="citizenship">Citizenship:</label>
+                <input type="text" id="citizenship" name="Citizenship" placeholder="..." />
+            </li>
+            <li class="reservationDetails">
+                <input type="submit" value="Reserve" />
+            </li>
+        </ul>
     </div>
 </body>
 @code {

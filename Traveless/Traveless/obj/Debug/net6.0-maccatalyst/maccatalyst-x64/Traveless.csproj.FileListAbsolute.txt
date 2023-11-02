@@ -282,3 +282,6 @@ F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-maccatalyst\maccatalyst-x
 F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\Traveless.pdb
 F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\Traveless.genruntimeconfig.cache
 F:\Coding\CPRG211\Traveless\Traveless\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\ref\Traveless.dll
+F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Data\airlines.csv
+F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Data\airports.csv
+F:\Coding\CPRG211\Traveless\Traveless\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Data\flights.csv
