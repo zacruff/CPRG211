@@ -15,7 +15,7 @@ namespace Traveless.Backend
         //Constant
         public const string RESERVATIONS_JSON_FILE = "Data/reservations.json";
         // Property
-        public IList<Reservation> Reservations { get { return _reservations; } }
+        public List<Reservation> Reservations { get; set; } = new();
 
         // Constructor
         public ReservationManager() { }
@@ -23,7 +23,11 @@ namespace Traveless.Backend
         // Methods
         public void LoadFromFile()
         {
+            string[] lines = File.ReadAllLines(RESERVATIONS_JSON_FILE);
+            foreach (string line in lines)
+            {
 
+            }
         }
         public int AvailableSeats(Flight flight)
         {
