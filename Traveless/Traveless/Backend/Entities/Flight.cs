@@ -11,11 +11,9 @@ namespace Traveless.Backend.Entities
 
 		// Properties
 		public string AirlineCode { get; set; }
-		public string Code { get; set; }
+		public string AirlineName { get; set; }
 		public decimal CostPerSeat { get; set; }
-		public int FlightNumber { get; set; }
 		public string From { get; set; }
-		public bool IsDomestic { get; set; } = true;
 		public string Time { get; set; }
 		public string To { get; set; }
 		public int TotalSeats { get; set; }
@@ -23,9 +21,10 @@ namespace Traveless.Backend.Entities
 
 		// Constructors
 		public Flight() { }
-		public Flight(string airlineCode, string from, string to, string weekday, string time, int seats, decimal costPerSeat)
+		public Flight(string airlineCode, string airlineName, string from, string to, string weekday, string time, int seats, decimal costPerSeat)
 		{
 			AirlineCode = airlineCode;
+			AirlineName = airlineName;
 			From = from;
 			To = to;
 			WeekDay = weekday;
@@ -33,15 +32,5 @@ namespace Traveless.Backend.Entities
 			TotalSeats = seats;
 			CostPerSeat = costPerSeat;
 		}
-
-		// Methods
-		public bool Equals(Flight other)
-		{
-			if (ReferenceEquals(null, other)) return false; return Equals(other);
-		}
-		public bool Equals(Object other)
-		{
-			if (ReferenceEquals(null, other)) return false; return Equals(other);
-		}
-	}
+    }
 }

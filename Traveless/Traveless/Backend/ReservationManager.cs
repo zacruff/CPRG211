@@ -12,8 +12,8 @@ namespace Traveless.Backend
         // Field
         protected List<Reservation> _reservations;
 
-        //Constant
-        public const string RESERVATIONS_JSON_FILE = "Data/reservations.json";
+        // Constant
+        public string RESERVATIONS_FILE = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data\\reservations.csv");
         // Property
         public List<Reservation> Reservations { get; set; } = new();
 
@@ -23,33 +23,37 @@ namespace Traveless.Backend
         // Methods
         public void LoadFromFile()
         {
-            string[] lines = File.ReadAllLines(RESERVATIONS_JSON_FILE);
+            string[] lines = File.ReadAllLines(RESERVATIONS_FILE);
             foreach (string line in lines)
             {
+                string[] columns = line.Split(',');
+                string flightCode = columns[0];
+                string airline = columns[1];
+                string day = columns[2];
+                string time = columns[3];
+                string cost = columns[4];
+                string name = columns[5];
+                string citizenship = columns[6];
+                string reservationCode = columns[7];
 
+                Reservation reservation = new(flightCode, airline, day, time, cost, name, citizenship, reservationCode);
+                Reservations.Add(reservation);
             }
         }
-        public int AvailableSeats(Flight flight)
+        public Reservation MakeReservation(string flightCode, string airline, string day, string time, string cost, string name, string citizenship, string reservationCode)
         {
-            return flight.TotalSeats;
+            Reservation reservation = new(flightCode, airline, day, time, cost, name, citizenship, reservationCode);
+            return reservation;
         }
-        public Reservation FindReservationByCode(string code)
-        {
-            foreach (var reservation in Reservations)
-            {
-                if (reservation.Code == code)
-                    return reservation;
-                return null;
-            }
-            return null;
-        }
-        //public Reservation MakeReservation(Flight flight, string name, string citizenship)
-        //{
-
-        //}
         public void Save()
         {
-
+            StreamWriter write = new StreamWriter(RESERVATIONS_FILE);
+            foreach (Reservation reservation in Reservations) 
+            {
+               string formattedReservation = reservation.ToString().Trim();
+                write.WriteLine(formattedReservation);
+            }
+            write.Close();
         }
     }
 }

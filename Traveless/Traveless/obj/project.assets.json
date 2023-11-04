@@ -36387,11 +36387,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Coding\\CPRG211\\Traveless\\Traveless\\Traveless.csproj",
+      "projectUniqueName": "F:\\Coding\\Shared Repos\\FlightResrvation\\Traveless\\Traveless\\Traveless.csproj",
       "projectName": "Traveless",
-      "projectPath": "F:\\Coding\\CPRG211\\Traveless\\Traveless\\Traveless.csproj",
+      "projectPath": "F:\\Coding\\Shared Repos\\FlightResrvation\\Traveless\\Traveless\\Traveless.csproj",
       "packagesPath": "C:\\Users\\zacru\\.nuget\\packages\\",
-      "outputPath": "F:\\Coding\\CPRG211\\Traveless\\Traveless\\obj\\",
+      "outputPath": "F:\\Coding\\Shared Repos\\FlightResrvation\\Traveless\\Traveless\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

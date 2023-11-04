@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Lab-4-Event-Driven-Desktop-Applications.props" />
-</Project>

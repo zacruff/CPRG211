@@ -4,117 +4,235 @@
 @using Traveless.Backend
 @using Traveless.Backend.Entities
 @inject FlightManager flightManager
-@inject AirlineManager airlineManager
-@inject AirportManager airportManager
+@inject Reservation reservation
 @inject ReservationManager reservationManager
 
 @page "/flights"
 
-<style> 
+<style>
     body {
         margin: auto;
-        text-align: center;
-    }
-    input {
+        font-family: Sans-serif;
         width: auto;
-    }
-    .searchClass {
-        display: inline;
-        list-style-type: none;
+        margin: 0 auto;
     }
 
-    .reservationDetails {
-        display;
-        list-style-type: none;
+    h3 {
+        text-align: center;
+        height: 45px;
+        line-height: 45px;
+        font-size: 25px;
+    }
+
+    .flight-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+
+    select {
+        text-transform: none;
+    }
+
+    .flight-style {
+        display: block;
+        width: 100%;
+        height: 34px;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #555;
+        background-color: white;
+        background-image: none;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+    }
+
+    .flight-flex {
+        display: flex;
+    }
+
+    .flight-flex-item {
+        flex: 1;
+        padding-left: 10px;
+
+    }
+
+    .button {
+        background-color: #2d85eb;
+        color: white;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.5;
+        border-radius: 4px;
+    }
+
+    .button-pos {
+        text-align: center;
+    }
+
+    .reserve-button {
+        width: 25%;
+    }
+
+    .reservation-code {
+        margin: auto;
+        display: block;
+        height: 34px;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #555;
+        background-color: white;
+        background-image: none;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
     }
 
 </style>
 
 <body>
-    <h3>Flight Finder</h3>
 
-        <div>
-            <ul class="searchClass">
-                <li class="searchClass">
-                    <label for="from">From:</label>
-                    <input type="text" id="from" name="From" placeholder="Any" @bind-value="@OriginDestination" />
-                </li>
-                <li class="searchClass">
-                    <label for="to">To:</label>
-                    <input type="text" id="to" name="To" placeholder="Any" @bind-value="@FinalDestination" />
-                </li>
-                <li class="searchClass">
-                    <label for="day">Day:</label>
-                    <input type="text" id="day" name="Day" placeholder="Any" @bind-value="@DepartureDay" />
-                </li>
-                <li class="searchClass">
-                    <input type="submit" value="Find Flights" @onclick="FoundFlight" />
-                </li>
-             </ul>
+        <h3>Flight Finder</h3>
+
+    <div class="flight-group">
+        <div class="flight-flex">
+            <div class="flight-flex-item">
+                        <label>From:</label>
+                        <div>
+                    <input type="text" id="from" name="From" placeholder="Any" @bind-value="@originDestination" class="flight-style" />
+                        </div>
+                </div>
+
+            <div class="flight-flex-item">
+
+                        <label>To:</label>
+                <input type="text" id="to" name="To" placeholder="Any" @bind-value="@finalDestination" class="flight-style" />
+
+                </div>
+
+            <div class="flight-flex-item">
+
+                        <label>Day:</label>
+                <input type="text" id="day" name="Day" placeholder="Any" @bind-value="@departureDay" class="flight-style" />
+
+                </div>
+
+            <div class="flight-flex-item">
+
+                        <label>Find Flight</label>
+                <input type="submit" value="Find Flights" @onclick="FindFlight" class="button flight-style" />
+
+                </div>
+            </div>
         </div>
 
-    <h3>Flights</h3>
+        <h3>Flights</h3>
 
-    <div>
-        <input placeholder="Loading" @bind="FlightFound" />
-    </div>
+        <div class="flight-flex-item">
+        <input class="flight-style" placeholder="Loading" readonly="readonly" @bind-value="selectedFlight"/>
+        </div>
 
-    <h3>Reserve</h3>
+        <h3>Reserve</h3>
+    <div class="flight-group">
+        <div class="flight-flex">
+            <div class="flight-flex-item">
+                            <label for="day">Flight Code:</label>
+                <input type="text" id="flightCode" name="FlightCode" placeholder="LL-DDDD" class="flight-style" readonly="readonly" @bind="flightCode" />
 
-    <div>
-        <ul class="reservationDetails">
-            <li class="reservationDetails">
-                <label for="flightCode">Flight Code:</label>
-                <input type="text" id="flightCode" name="FlightCode" placeholder="LL-DDDD" />
-            </li>
-            <li class="reservationDetails">
-                <label for="airline">Airline:</label>
-                <input type="text" id="airline" name="Airline" placeholder="Airline" />
-            </li>
-            <li class="reservationDetails">
-                <label for="day">Day:</label>
-                <input type="text" id="day" name="Day" placeholder="Day" />
-            </li>
-            <li class="reservationDetails">
-                <label for="time">Time:</label>
-                <input type="text" id="time" name="Time" placeholder="HH:MM" />
-            </li>
-            <li class="reservationDetails">
-                <label for="cost">Cost:</label>
-                <input type="text" id="cost" name="Cost" placeholder="$" />
-            </li>
-            <li class="reservationDetails">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="Name" placeholder="John/Jane Doe" />
-            </li>
-            <li class="reservationDetails">
-                <label for="citizenship">Citizenship:</label>
-                <input type="text" id="citizenship" name="Citizenship" placeholder="..." />
-            </li>
-            <li class="reservationDetails">
-                <input type="submit" value="Reserve" />
-            </li>
-        </ul>
-    </div>
+                            <label for="day">Airline:</label>
+                <input type="text" id="airline" name="Airline" placeholder="Airline" class="flight-style" readonly="readonly" @bind="airline" />
+
+                            <label for="day">Day:</label>
+                <input type="text" id="day" name="Day" placeholder="Day" class="flight-style" readonly="readonly" @bind="day" />
+
+                            <label for="day">Time:</label>
+                <input type="text" id="time" name="Time" placeholder="HH:MM" class="flight-style" readonly="readonly" @bind="time" />
+
+                            <label>Cost:</label>
+                <input type="text" id="cost" name="Cost" placeholder="$" class="flight-style" readonly="readonly" @bind="cost" />
+
+                            <label for="day">Name:</label>
+                <input type="text" id="name" name="Name" placeholder="John/Jane Doe" class="flight-style" @bind="name" />
+
+                            <label for="day">Citizenship:</label>
+                <input type="text" id="citizenship" name="Citizenship" placeholder="..." class="flight-style" @bind="citizenship" />
+                    </div>
+                </div>
+        </div>
+
+    <div class="flight-group">
+        <div class="button-pos">
+                <input type="submit" value="Reserve" class="button reserve-button" @onclick="GenerateReservation"/>
+            </div>
+        </div>
+        <div>
+            <input class="reservation-code" type="text" placeholder="Reservation Code: " readonly="readonly" @bind-value="@reservationCode" />
+        </div>
 </body>
-@code {
-    private string OriginDestination { get; set; }
-    private string FinalDestination { get; set; }
-    private string DepartureDay { get; set; }
-    private string FlightFound { get; set; }
 
-    private void FoundFlight()
+@code {
+    // Flights
+    private string originDestination { get; set; }
+    private string finalDestination { get; set; }
+    private string departureDay { get; set; }
+    private string selectedFlight { get; set; }
+    private Flight newFlight{ get; set; }
+
+    // Reservation
+    private string flightCode { get; set; }
+    private string airline { get; set; }
+    private string day { get; set; }
+    private string time { get; set; }
+    private string cost { get; set; }
+    private string name { get; set; }
+    private string citizenship { get; set; }
+    private string reservationCode { get; set; }
+
+    private Reservation newReservation { get; set; }
+
+    private void FindFlight()
     {
         flightManager.LoadFlights();
-        airlineManager.LoadAirlines();
         foreach (Flight flight in flightManager.Flights)
         {
-            if (OriginDestination == flight.From && FinalDestination == flight.To && DepartureDay == flight.WeekDay)
+            if (originDestination == flight.From && finalDestination == flight.To && departureDay == flight.WeekDay)
             {
-                FlightFound = $"{flight.AirlineCode}, {flight.From}, {flight.To}, {flight.WeekDay}, {flight.Time}, {flight.CostPerSeat}";
+                selectedFlight = $"{flight.AirlineCode}, {flight.AirlineName}, {flight.From}, {flight.To}, {flight.WeekDay}, {flight.Time}, {flight.CostPerSeat}";
+                flightCode = flight.AirlineCode;
+                airline = flight.AirlineName;
+                day = flight.WeekDay;
+                time = flight.Time;
+                cost = flight.CostPerSeat.ToString();
                 break;
             } else
-                FlightFound = "Flight not found";
+                selectedFlight = "Flight not found";
         }
+
+    }
+    private void GenerateReservation()
+    {
+        reservationManager.LoadFromFile();
+        if (name != null && citizenship != null)
+        {
+            reservationCode = reservation.GenerateReservationCode();
+            newReservation = reservationManager.MakeReservation(flightCode, airline, day, time, cost, name, citizenship, reservationCode);
+            reservationCode = $"Reservation Code: {newReservation.GenerateReservationCode()}";
+        }
+        reservationManager.Reservations.Add(newReservation);
+        reservationManager.Save();
     }
 }
