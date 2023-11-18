@@ -1,0 +1,14 @@
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\bin\Debug\net6.0\Lab-6-Serialization-RAF.exe
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\bin\Debug\net6.0\Lab-6-Serialization-RAF.deps.json
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\bin\Debug\net6.0\Lab-6-Serialization-RAF.runtimeconfig.json
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\bin\Debug\net6.0\Lab-6-Serialization-RAF.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\bin\Debug\net6.0\Lab-6-Serialization-RAF.pdb
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\obj\Debug\net6.0\Lab-6-Serialization-RAF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\obj\Debug\net6.0\Lab-6-Serialization-RAF.AssemblyInfoInputs.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\obj\Debug\net6.0\Lab-6-Serialization-RAF.AssemblyInfo.cs
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\obj\Debug\net6.0\Lab-6-Serialization-RAF.csproj.CoreCompileInputs.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\obj\Debug\net6.0\Lab-6-Serialization-RAF.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\obj\Debug\net6.0\refint\Lab-6-Serialization-RAF.dll
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\obj\Debug\net6.0\Lab-6-Serialization-RAF.pdb
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\obj\Debug\net6.0\Lab-6-Serialization-RAF.genruntimeconfig.cache
+C:\Users\zacru\Documents\SAIT\YR1\CPRG211\Lab-6-Serialization-RAF\Lab-6-Serialization-RAF\obj\Debug\net6.0\ref\Lab-6-Serialization-RAF.dll
